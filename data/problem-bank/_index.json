@@ -1,0 +1,63 @@
+{
+  "difficulty_counts": {
+    "d2": 4,
+    "d3": 8,
+    "d4": 6
+  },
+  "duplicates_collapsed": 18,
+  "generated_at": "2026-07-07T09:07:38.382400+09:00",
+  "primary_source_counts": {
+    "lesson-handwritten": 18
+  },
+  "quality_status": "inventory_only_unreviewed",
+  "source_counts": {
+    "lesson-bundle": 18,
+    "lesson-handwritten": 18
+  },
+  "source_question_count": 36,
+  "subject_counts": {
+    "japanese": 8,
+    "math": 10
+  },
+  "svg_status_counts": {
+    "not_required": 14,
+    "svg_present_unreviewed": 4
+  },
+  "top_units": [
+    {
+      "count": 6,
+      "unit_id": "wariai"
+    },
+    {
+      "count": 3,
+      "unit_id": "gyakuzan"
+    },
+    {
+      "count": 2,
+      "unit_id": "goi-kanyouku"
+    },
+    {
+      "count": 2,
+      "unit_id": "shijigo"
+    },
+    {
+      "count": 2,
+      "unit_id": "naiyou-gacchi"
+    },
+    {
+      "count": 1,
+      "unit_id": "shinjou-henka"
+    },
+    {
+      "count": 1,
+      "unit_id": "setsuzoku"
+    },
+    {
+      "count": 1,
+      "unit_id": "tani"
+    }
+  ],
+  "total_questions": 18,
+  "total_units": 8,
+  "version": 1
+}

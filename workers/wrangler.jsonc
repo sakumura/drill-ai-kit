@@ -1,0 +1,22 @@
+{
+  // account_id は書かない: `wrangler login` 済みなら自動解決、複数アカウントの場合は
+  // 環境変数 CLOUDFLARE_ACCOUNT_ID で指定する（.env.example 参照）
+  "name": "juken-ai-kit-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-12-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "r2_buckets": [
+    {
+      "binding": "PLAY_LOG",
+      "bucket_name": "juken-ai-kit-play-log"
+    }
+  ],
+  "ai": {
+    "binding": "AI"
+  },
+  "vars": {
+    // 自分の Cloudflare Pages プロジェクト名（CORS 許可オリジンの判定に使う）
+    "PAGES_PROJECT": "juken-ai-kit"
+  }
+  // Slack 通知は任意。使う場合のみ: wrangler secret put SLACK_WEBHOOK_URL
+}

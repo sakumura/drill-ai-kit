@@ -1,0 +1,442 @@
+{
+  "lesson_id": "lesson-m-0701",
+  "subject": "math",
+  "date": "2026-07-01",
+  "title": "7/1 割合の基礎と逆算の即答アトム（サンプルレッスン）",
+  "difficulty": 3,
+  "motivator_message": "新しい単元「割合」のスタート！ どっちが「もとにする量」かを見つけられたら、今日はもう勝ちだよ ✨",
+  "blocks": [
+    {
+      "id": "warmup",
+      "title": "入口確認（逆算1演算・単位）",
+      "block_type": "warmup",
+      "question_ids": [
+        "q-lesson-m-0701-01",
+        "q-lesson-m-0701-02"
+      ]
+    },
+    {
+      "id": "core",
+      "title": "割合の基礎（テスト範囲）",
+      "block_type": "core",
+      "question_ids": [
+        "q-lesson-m-0701-03",
+        "q-lesson-m-0701-04",
+        "q-lesson-m-0701-05",
+        "q-lesson-m-0701-06",
+        "q-lesson-m-0701-07"
+      ]
+    },
+    {
+      "id": "weakness_spiral",
+      "title": "既習弱点（多段逆算）",
+      "block_type": "weakness_spiral",
+      "question_ids": [
+        "q-lesson-m-0701-08"
+      ]
+    },
+    {
+      "id": "exam_transfer",
+      "title": "過去問同型",
+      "block_type": "exam_transfer",
+      "question_ids": [
+        "q-lesson-m-0701-09"
+      ]
+    },
+    {
+      "id": "optional_extra",
+      "title": "追加チャレンジ（とばしてOK）",
+      "block_type": "optional_extra",
+      "question_ids": [
+        "q-lesson-m-0701-10"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "position": 1,
+      "unit_id": "gyakuzan",
+      "difficulty": "d2",
+      "question_text": "お楽しみ会のお菓子が □ 個あって、12個 配ったら 28個 残った。□ はいくつか。",
+      "answer": "40",
+      "answer_unit": "個",
+      "hints": [
+        "40",
+        "16",
+        "12"
+      ],
+      "solution_steps": [
+        "逆算は配った 12個 を戻す（足す）。",
+        "28 + 12 = 40（個）。"
+      ],
+      "common_mistakes": [
+        "16 は 28 − 12 と、戻す向きを間違えて引いてしまったミス。",
+        "12 は配った個数をそのまま答えにしてしまったミス。"
+      ],
+      "is_figure": true,
+      "figure_svg": "<svg viewBox=\"0 0 260 90\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"20\" y=\"18\" font-size=\"11\">□ − 12 = 28</text><line x1=\"20\" y1=\"32\" x2=\"240\" y2=\"32\" stroke=\"#333\" stroke-width=\"1.2\"/><path d=\"M240,32 L232,28 L232,36 Z\" fill=\"#333\"/><text x=\"130\" y=\"28\" font-size=\"9\" text-anchor=\"middle\">左から右へ計算</text><line x1=\"240\" y1=\"55\" x2=\"20\" y2=\"55\" stroke=\"#c0392b\" stroke-width=\"1.2\" stroke-dasharray=\"4 2\"/><path d=\"M20,55 L28,51 L28,59 Z\" fill=\"#c0392b\"/><text x=\"130\" y=\"72\" font-size=\"9\" text-anchor=\"middle\" fill=\"#c0392b\">逆算は右から左へ戻す（− を + にして 28 + 12）</text></svg>",
+      "question_type": "single_tier",
+      "tier1_label": null,
+      "tier1_purpose": null,
+      "tier2_correct_index": null,
+      "tier2_label": null,
+      "tier2_purpose": null,
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d2",
+        "weakness_target": "gyakuzan high 120（1演算の逆算アトム。戻す向きの確認）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 2,
+      "unit_id": "tani",
+      "difficulty": "d2",
+      "question_text": "通学路の長さは 2km450m。これは何mか。",
+      "answer": "2450",
+      "answer_unit": "m",
+      "hints": [
+        "2450",
+        "2045",
+        "2405"
+      ],
+      "solution_steps": [
+        "1km = 1000m なので 2km = 2000m。",
+        "2000 + 450 = 2450（m）。"
+      ],
+      "common_mistakes": [
+        "2045 は 2km45m と読みちがえて 450 を 45 にした桁ミス。",
+        "2405 は 450 の十の位と一の位を書き写すときに入れかえたミス。"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "single_tier",
+      "tier1_label": null,
+      "tier1_purpose": null,
+      "tier2_correct_index": null,
+      "tier2_label": null,
+      "tier2_purpose": null,
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d2",
+        "weakness_target": "tani（単位換算の即答アトム維持）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 3,
+      "unit_id": "wariai",
+      "difficulty": "d3",
+      "question_text": "クラスの 50人 のうち 20人 が図書室に行った。図書室に行ったのは クラス全体の何%か。",
+      "answer": "40",
+      "answer_unit": "%",
+      "hints": [
+        "40",
+        "250",
+        "30"
+      ],
+      "solution_steps": [
+        "「クラス全体の」とあるので、もとにする量は 50人。",
+        "20 ÷ 50 = 0.4 → 40%。"
+      ],
+      "common_mistakes": [
+        "250 は 50 ÷ 20 と、もとにする量を逆にして割ってしまったミス。",
+        "30 は 50 − 20 と、割合ではなく差を出してしまったミス。それは人数の差！"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "single_tier",
+      "tier1_label": null,
+      "tier1_purpose": null,
+      "tier2_correct_index": null,
+      "tier2_label": null,
+      "tier2_purpose": null,
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d3",
+        "weakness_target": "wariai high 95（もとにする量の特定）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 4,
+      "unit_id": "wariai",
+      "difficulty": "d3",
+      "question_text": "600円 のケーキが 30%引き で売られている。値引き額は何円か。",
+      "answer": "180",
+      "answer_unit": "円",
+      "hints": [
+        "180",
+        "420",
+        "570"
+      ],
+      "solution_steps": [
+        "値引き額 = もとにする量 × 割合。",
+        "600 × 0.3 = 180（円）。"
+      ],
+      "common_mistakes": [
+        "420 は 600 − 180 の売り値。聞かれているのは値引き額のほう。",
+        "570 は 600 − 30 と、% をそのまま円として引いてしまったミス。"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "single_tier",
+      "tier1_label": null,
+      "tier1_purpose": null,
+      "tier2_correct_index": null,
+      "tier2_label": null,
+      "tier2_purpose": null,
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d3",
+        "weakness_target": "wariai high 95（割合の第2用法）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 5,
+      "unit_id": "wariai",
+      "difficulty": "d3",
+      "question_text": "2割5分 を小数で表すとどれか。",
+      "answer": "0.25",
+      "answer_unit": null,
+      "hints": [
+        "0.25",
+        "2.5",
+        "0.205"
+      ],
+      "solution_steps": [
+        "1割 = 0.1、1分 = 0.01。",
+        "2割 = 0.2、5分 = 0.05 なので 0.25。"
+      ],
+      "common_mistakes": [
+        "2.5 は 1割 = 1 と勘違いしたミス。",
+        "0.205 は 1分 = 0.001 と桁を1つ小さくしたミス。"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "single_tier",
+      "tier1_label": null,
+      "tier1_purpose": null,
+      "tier2_correct_index": null,
+      "tier2_label": null,
+      "tier2_purpose": null,
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d3",
+        "weakness_target": "wariai（歩合と小数の変換テーブル）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 6,
+      "unit_id": "gyakuzan",
+      "difficulty": "d3",
+      "question_text": "□ × 3 + 15 = 60 のとき、□ はいくつか。",
+      "answer": "15",
+      "answer_unit": null,
+      "hints": [
+        "15",
+        "25",
+        "45"
+      ],
+      "solution_steps": [
+        "右端から戻す。まず + 15 を戻して 60 − 15 = 45（中ボス）。",
+        "次に × 3 を戻して 45 ÷ 3 = 15（ラスボス）。"
+      ],
+      "common_mistakes": [
+        "25 は (60 + 15) ÷ 3 と、引くべき 15 を足してしまったミス。",
+        "45 は 60 − 15 で止まった数字。それは中ボス！ラスボスは 45 ÷ 3 = 15。"
+      ],
+      "is_figure": true,
+      "figure_svg": "<svg viewBox=\"0 0 260 90\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"20\" y=\"18\" font-size=\"11\">□ × 3 + 15 = 60</text><line x1=\"20\" y1=\"32\" x2=\"240\" y2=\"32\" stroke=\"#333\" stroke-width=\"1.2\"/><path d=\"M240,32 L232,28 L232,36 Z\" fill=\"#333\"/><text x=\"130\" y=\"28\" font-size=\"9\" text-anchor=\"middle\">左から右へ計算</text><line x1=\"240\" y1=\"55\" x2=\"20\" y2=\"55\" stroke=\"#c0392b\" stroke-width=\"1.2\" stroke-dasharray=\"4 2\"/><path d=\"M20,55 L28,51 L28,59 Z\" fill=\"#c0392b\"/><text x=\"130\" y=\"72\" font-size=\"9\" text-anchor=\"middle\" fill=\"#c0392b\">逆算は右から戻す（− 15 → ÷ 3）</text></svg>",
+      "question_type": "single_tier",
+      "tier1_label": null,
+      "tier1_purpose": null,
+      "tier2_correct_index": null,
+      "tier2_label": null,
+      "tier2_purpose": null,
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d3",
+        "weakness_target": "gyakuzan high 120（2演算逆算。7/12テスト範囲と接続）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 7,
+      "unit_id": "wariai",
+      "difficulty": "d4",
+      "question_text": "持っていたお小遣いの 40% を使ったら 720円 残った。Step1 で残りが全体の何%にあたるかを選び、Step2 ではじめに持っていたお小遣いを求めよ。",
+      "answer": "1200",
+      "answer_unit": "円",
+      "hints": [
+        "残りは全体の 60% にあたる",
+        "残りは全体の 40% にあたる",
+        "残りは 720 × 0.4 で求める",
+        "1200",
+        "1800",
+        "1152"
+      ],
+      "solution_steps": [
+        "Step1: 全体を 100% とすると、残りは 100 − 40 = 60%（中ボス）。",
+        "Step2: 720 ÷ 0.6 = 1200（円）（ラスボス）。"
+      ],
+      "common_mistakes": [
+        "「残りは全体の 40%」は、使った割合と残りの割合を混同したミス。",
+        "「720 × 0.4」は、残りの金額に使った割合を掛けても意味がない式。",
+        "1800 は 720 ÷ 0.4 と、残りを 40% として割ってしまったミス。",
+        "1152 は 720 × 1.6 と、割り算を掛け算にしてしまったミス。"
+      ],
+      "is_figure": true,
+      "figure_svg": "<svg viewBox=\"0 0 260 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"30\" width=\"220\" height=\"18\" fill=\"none\" stroke=\"#333\"/><line x1=\"108\" y1=\"30\" x2=\"108\" y2=\"48\" stroke=\"#333\"/><text x=\"64\" y=\"26\" font-size=\"10\" text-anchor=\"middle\">使った 40%</text><text x=\"174\" y=\"26\" font-size=\"10\" text-anchor=\"middle\">残り ?%</text><text x=\"174\" y=\"62\" font-size=\"10\" text-anchor=\"middle\" fill=\"#c0392b\">720円</text><text x=\"130\" y=\"82\" font-size=\"10\" text-anchor=\"middle\">全体 = 100% = □円</text></svg>",
+      "question_type": "two_tier",
+      "tier1_label": "残りは全体の何%？",
+      "tier1_purpose": "strategy",
+      "tier2_correct_index": 3,
+      "tier2_label": "はじめに持っていたお小遣いは？",
+      "tier2_purpose": "answer",
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d4",
+        "weakness_target": "wariai high 95（残りの割合から全体を逆算。7/12テスト範囲の核心）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 8,
+      "unit_id": "gyakuzan",
+      "difficulty": "d4",
+      "question_text": "（□ × 5 − 10）÷ 3 = 10 のとき、Step1 で逆算の1手目（右端から最初に戻す演算）を選び、Step2 で □ を求めよ。",
+      "answer": "8",
+      "answer_unit": null,
+      "hints": [
+        "÷ 3 を戻すため × 3 をする",
+        "− 10 を先に戻す",
+        "× 5 を先に戻す",
+        "8",
+        "30",
+        "6"
+      ],
+      "solution_steps": [
+        "Step1: 右端から戻すので、まず ÷ 3 を戻すため × 3 をする。10 × 3 = 30（中ボス）。",
+        "Step2: 30 + 10 = 40。40 ÷ 5 = 8（ラスボス）。"
+      ],
+      "common_mistakes": [
+        "「− 10 を先に戻す」を選ぶと、まだ ÷ 3 が残ったままで工程順序が崩れる。",
+        "「× 5 を先に戻す」は逆算の出発点を左端にしてしまったミス。戻すのは右端から。",
+        "30 は 10 × 3 で止まった数字。それは中ボス！ラスボスは 8。",
+        "6 は 30 ÷ 5 と、+ 10 を戻し忘れたミス。"
+      ],
+      "is_figure": true,
+      "figure_svg": "<svg viewBox=\"0 0 260 90\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"20\" y=\"18\" font-size=\"11\">（□ × 5 − 10）÷ 3 = 10</text><line x1=\"20\" y1=\"32\" x2=\"240\" y2=\"32\" stroke=\"#333\" stroke-width=\"1.2\"/><path d=\"M240,32 L232,28 L232,36 Z\" fill=\"#333\"/><text x=\"130\" y=\"28\" font-size=\"9\" text-anchor=\"middle\">左から右へ計算</text><line x1=\"240\" y1=\"55\" x2=\"20\" y2=\"55\" stroke=\"#c0392b\" stroke-width=\"1.2\" stroke-dasharray=\"4 2\"/><path d=\"M20,55 L28,51 L28,59 Z\" fill=\"#c0392b\"/><text x=\"130\" y=\"72\" font-size=\"9\" text-anchor=\"middle\" fill=\"#c0392b\">逆算は右から戻す（× 3 → + 10 → ÷ 5）</text></svg>",
+      "question_type": "two_tier",
+      "tier1_label": "逆算の1手目（最初に戻す演算）はどれ？",
+      "tier1_purpose": "strategy",
+      "tier2_correct_index": 3,
+      "tier2_label": "□ はいくつ？",
+      "tier2_purpose": "answer",
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d4",
+        "weakness_target": "gyakuzan high 120（多段逆算の工程順序。最重点弱点）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 9,
+      "unit_id": "wariai",
+      "difficulty": "d4",
+      "question_text": "花だんの広さの 25% にチューリップ、45% にパンジーを植えた。何も植えていない残りは 6m² である。Step1 で残りが全体の何%にあたるかを選び、Step2 で花だん全体の広さを求めよ。",
+      "answer": "20",
+      "answer_unit": "m²",
+      "hints": [
+        "残りは全体の 30% にあたる",
+        "残りは全体の 70% にあたる",
+        "残りは全体の 20% にあたる",
+        "20",
+        "8",
+        "12"
+      ],
+      "solution_steps": [
+        "Step1: 植えた割合は 25 + 45 = 70%。残りは 100 − 70 = 30%（中ボス）。",
+        "Step2: 6 ÷ 0.3 = 20（m²）（ラスボス）。"
+      ],
+      "common_mistakes": [
+        "「残りは全体の 70%」は、植えた割合の合計と残りを混同したミス。",
+        "「残りは全体の 20%」は 45 − 25 と、割合の差を出してしまったミス。",
+        "8 は 6 × 1.3 の勘違いから出やすい数字で、根拠のない式。",
+        "12 は 6 ÷ 0.5 と、残りを 50% と雑に見積もったミス。"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "two_tier",
+      "tier1_label": "残りは全体の何%？",
+      "tier1_purpose": "basis",
+      "tier2_correct_index": 3,
+      "tier2_label": "花だん全体の広さは？",
+      "tier2_purpose": "answer",
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d4",
+        "weakness_target": "wariai high 95（志望校過去問同型: 残りの割合から全体を逆算）",
+        "target_anchor": "2027-1 大問2(3)",
+        "match_type": "exact"
+      }
+    },
+    {
+      "position": 10,
+      "unit_id": "wariai",
+      "difficulty": "d3",
+      "question_text": "40人 のクラスの 35% が眼鏡をかけている。眼鏡をかけているのは何人か。",
+      "answer": "14",
+      "answer_unit": "人",
+      "hints": [
+        "14",
+        "35",
+        "26"
+      ],
+      "solution_steps": [
+        "くらべる量 = もとにする量 × 割合。",
+        "40 × 0.35 = 14（人）。"
+      ],
+      "common_mistakes": [
+        "35 は % の数字をそのまま人数にしてしまったミス。",
+        "26 は 40 − 14 の眼鏡をかけていない人数。聞かれているのはかけている人数。"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "single_tier",
+      "tier1_label": null,
+      "tier1_purpose": null,
+      "tier2_correct_index": null,
+      "tier2_label": null,
+      "tier2_purpose": null,
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d3",
+        "weakness_target": "wariai（第2用法の反復。optional）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    }
+  ]
+}

@@ -1,0 +1,825 @@
+[
+  {
+    "id": "lesson-m-0701",
+    "unit_id": "math",
+    "subject": "math",
+    "title": "7/1 割合の基礎と逆算の即答アトム（サンプルレッスン）",
+    "concept_cards": [],
+    "tips": [],
+    "difficulty": 3,
+    "grade": 5,
+    "sort_order": 0,
+    "created_at": "2026-07-07T08:58:56.231932+09:00",
+    "lesson_type": "handwritten",
+    "archived": false,
+    "questions": [
+      {
+        "id": "q-lesson-m-0701-01",
+        "lesson_id": "lesson-m-0701",
+        "position": 1,
+        "question_text": "お楽しみ会のお菓子が □ 個あって、12個 配ったら 28個 残った。□ はいくつか。",
+        "question_image_url": null,
+        "answer": "40",
+        "answer_unit": "個",
+        "hints": [
+          "40",
+          "16",
+          "12"
+        ],
+        "solution_steps": [
+          "逆算は配った 12個 を戻す（足す）。",
+          "28 + 12 = 40（個）。"
+        ],
+        "common_mistakes": [
+          "16 は 28 − 12 と、戻す向きを間違えて引いてしまったミス。",
+          "12 は配った個数をそのまま答えにしてしまったミス。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "gyakuzan",
+        "figure_svg": "<svg viewBox=\"0 0 260 90\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"20\" y=\"18\" font-size=\"11\">□ − 12 = 28</text><line x1=\"20\" y1=\"32\" x2=\"240\" y2=\"32\" stroke=\"#333\" stroke-width=\"1.2\"/><path d=\"M240,32 L232,28 L232,36 Z\" fill=\"#333\"/><text x=\"130\" y=\"28\" font-size=\"9\" text-anchor=\"middle\">左から右へ計算</text><line x1=\"240\" y1=\"55\" x2=\"20\" y2=\"55\" stroke=\"#c0392b\" stroke-width=\"1.2\" stroke-dasharray=\"4 2\"/><path d=\"M20,55 L28,51 L28,59 Z\" fill=\"#c0392b\"/><text x=\"130\" y=\"72\" font-size=\"9\" text-anchor=\"middle\" fill=\"#c0392b\">逆算は右から左へ戻す（− を + にして 28 + 12）</text></svg>",
+        "difficulty": "d2",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "single_tier",
+        "tier2_correct_index": null,
+        "tier1_label": null,
+        "tier1_purpose": null,
+        "tier2_label": null,
+        "tier2_purpose": null,
+        "slot_config": null,
+        "step": 1,
+        "step_label": "single"
+      },
+      {
+        "id": "q-lesson-m-0701-02",
+        "lesson_id": "lesson-m-0701",
+        "position": 2,
+        "question_text": "通学路の長さは 2km450m。これは何mか。",
+        "question_image_url": null,
+        "answer": "2450",
+        "answer_unit": "m",
+        "hints": [
+          "2450",
+          "2045",
+          "2405"
+        ],
+        "solution_steps": [
+          "1km = 1000m なので 2km = 2000m。",
+          "2000 + 450 = 2450（m）。"
+        ],
+        "common_mistakes": [
+          "2045 は 2km45m と読みちがえて 450 を 45 にした桁ミス。",
+          "2405 は 450 の十の位と一の位を書き写すときに入れかえたミス。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "tani",
+        "figure_svg": null,
+        "difficulty": "d2",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "single_tier",
+        "tier2_correct_index": null,
+        "tier1_label": null,
+        "tier1_purpose": null,
+        "tier2_label": null,
+        "tier2_purpose": null,
+        "slot_config": null,
+        "step": 1,
+        "step_label": "single"
+      },
+      {
+        "id": "q-lesson-m-0701-03",
+        "lesson_id": "lesson-m-0701",
+        "position": 3,
+        "question_text": "クラスの 50人 のうち 20人 が図書室に行った。図書室に行ったのは クラス全体の何%か。",
+        "question_image_url": null,
+        "answer": "40",
+        "answer_unit": "%",
+        "hints": [
+          "40",
+          "250",
+          "30"
+        ],
+        "solution_steps": [
+          "「クラス全体の」とあるので、もとにする量は 50人。",
+          "20 ÷ 50 = 0.4 → 40%。"
+        ],
+        "common_mistakes": [
+          "250 は 50 ÷ 20 と、もとにする量を逆にして割ってしまったミス。",
+          "30 は 50 − 20 と、割合ではなく差を出してしまったミス。それは人数の差！"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "wariai",
+        "figure_svg": null,
+        "difficulty": "d3",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "single_tier",
+        "tier2_correct_index": null,
+        "tier1_label": null,
+        "tier1_purpose": null,
+        "tier2_label": null,
+        "tier2_purpose": null,
+        "slot_config": null,
+        "step": 1,
+        "step_label": "single"
+      },
+      {
+        "id": "q-lesson-m-0701-04",
+        "lesson_id": "lesson-m-0701",
+        "position": 4,
+        "question_text": "600円 のケーキが 30%引き で売られている。値引き額は何円か。",
+        "question_image_url": null,
+        "answer": "180",
+        "answer_unit": "円",
+        "hints": [
+          "180",
+          "420",
+          "570"
+        ],
+        "solution_steps": [
+          "値引き額 = もとにする量 × 割合。",
+          "600 × 0.3 = 180（円）。"
+        ],
+        "common_mistakes": [
+          "420 は 600 − 180 の売り値。聞かれているのは値引き額のほう。",
+          "570 は 600 − 30 と、% をそのまま円として引いてしまったミス。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "wariai",
+        "figure_svg": null,
+        "difficulty": "d3",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "single_tier",
+        "tier2_correct_index": null,
+        "tier1_label": null,
+        "tier1_purpose": null,
+        "tier2_label": null,
+        "tier2_purpose": null,
+        "slot_config": null,
+        "step": 1,
+        "step_label": "single"
+      },
+      {
+        "id": "q-lesson-m-0701-05",
+        "lesson_id": "lesson-m-0701",
+        "position": 5,
+        "question_text": "2割5分 を小数で表すとどれか。",
+        "question_image_url": null,
+        "answer": "0.25",
+        "answer_unit": null,
+        "hints": [
+          "0.25",
+          "2.5",
+          "0.205"
+        ],
+        "solution_steps": [
+          "1割 = 0.1、1分 = 0.01。",
+          "2割 = 0.2、5分 = 0.05 なので 0.25。"
+        ],
+        "common_mistakes": [
+          "2.5 は 1割 = 1 と勘違いしたミス。",
+          "0.205 は 1分 = 0.001 と桁を1つ小さくしたミス。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "wariai",
+        "figure_svg": null,
+        "difficulty": "d3",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "single_tier",
+        "tier2_correct_index": null,
+        "tier1_label": null,
+        "tier1_purpose": null,
+        "tier2_label": null,
+        "tier2_purpose": null,
+        "slot_config": null,
+        "step": 1,
+        "step_label": "single"
+      },
+      {
+        "id": "q-lesson-m-0701-06",
+        "lesson_id": "lesson-m-0701",
+        "position": 6,
+        "question_text": "□ × 3 + 15 = 60 のとき、□ はいくつか。",
+        "question_image_url": null,
+        "answer": "15",
+        "answer_unit": null,
+        "hints": [
+          "15",
+          "25",
+          "45"
+        ],
+        "solution_steps": [
+          "右端から戻す。まず + 15 を戻して 60 − 15 = 45（中ボス）。",
+          "次に × 3 を戻して 45 ÷ 3 = 15（ラスボス）。"
+        ],
+        "common_mistakes": [
+          "25 は (60 + 15) ÷ 3 と、引くべき 15 を足してしまったミス。",
+          "45 は 60 − 15 で止まった数字。それは中ボス！ラスボスは 45 ÷ 3 = 15。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "gyakuzan",
+        "figure_svg": "<svg viewBox=\"0 0 260 90\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"20\" y=\"18\" font-size=\"11\">□ × 3 + 15 = 60</text><line x1=\"20\" y1=\"32\" x2=\"240\" y2=\"32\" stroke=\"#333\" stroke-width=\"1.2\"/><path d=\"M240,32 L232,28 L232,36 Z\" fill=\"#333\"/><text x=\"130\" y=\"28\" font-size=\"9\" text-anchor=\"middle\">左から右へ計算</text><line x1=\"240\" y1=\"55\" x2=\"20\" y2=\"55\" stroke=\"#c0392b\" stroke-width=\"1.2\" stroke-dasharray=\"4 2\"/><path d=\"M20,55 L28,51 L28,59 Z\" fill=\"#c0392b\"/><text x=\"130\" y=\"72\" font-size=\"9\" text-anchor=\"middle\" fill=\"#c0392b\">逆算は右から戻す（− 15 → ÷ 3）</text></svg>",
+        "difficulty": "d3",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "single_tier",
+        "tier2_correct_index": null,
+        "tier1_label": null,
+        "tier1_purpose": null,
+        "tier2_label": null,
+        "tier2_purpose": null,
+        "slot_config": null,
+        "step": 1,
+        "step_label": "single"
+      },
+      {
+        "id": "q-lesson-m-0701-07",
+        "lesson_id": "lesson-m-0701",
+        "position": 7,
+        "question_text": "持っていたお小遣いの 40% を使ったら 720円 残った。Step1 で残りが全体の何%にあたるかを選び、Step2 ではじめに持っていたお小遣いを求めよ。",
+        "question_image_url": null,
+        "answer": "1200",
+        "answer_unit": "円",
+        "hints": [
+          "残りは全体の 60% にあたる",
+          "残りは全体の 40% にあたる",
+          "残りは 720 × 0.4 で求める",
+          "1200",
+          "1800",
+          "1152"
+        ],
+        "solution_steps": [
+          "Step1: 全体を 100% とすると、残りは 100 − 40 = 60%（中ボス）。",
+          "Step2: 720 ÷ 0.6 = 1200（円）（ラスボス）。"
+        ],
+        "common_mistakes": [
+          "「残りは全体の 40%」は、使った割合と残りの割合を混同したミス。",
+          "「720 × 0.4」は、残りの金額に使った割合を掛けても意味がない式。",
+          "1800 は 720 ÷ 0.4 と、残りを 40% として割ってしまったミス。",
+          "1152 は 720 × 1.6 と、割り算を掛け算にしてしまったミス。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "wariai",
+        "figure_svg": "<svg viewBox=\"0 0 260 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"30\" width=\"220\" height=\"18\" fill=\"none\" stroke=\"#333\"/><line x1=\"108\" y1=\"30\" x2=\"108\" y2=\"48\" stroke=\"#333\"/><text x=\"64\" y=\"26\" font-size=\"10\" text-anchor=\"middle\">使った 40%</text><text x=\"174\" y=\"26\" font-size=\"10\" text-anchor=\"middle\">残り ?%</text><text x=\"174\" y=\"62\" font-size=\"10\" text-anchor=\"middle\" fill=\"#c0392b\">720円</text><text x=\"130\" y=\"82\" font-size=\"10\" text-anchor=\"middle\">全体 = 100% = □円</text></svg>",
+        "difficulty": "d4",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "two_tier",
+        "tier2_correct_index": 3,
+        "tier1_label": "残りは全体の何%？",
+        "tier1_purpose": "strategy",
+        "tier2_label": "はじめに持っていたお小遣いは？",
+        "tier2_purpose": "answer",
+        "slot_config": null
+      },
+      {
+        "id": "q-lesson-m-0701-08",
+        "lesson_id": "lesson-m-0701",
+        "position": 8,
+        "question_text": "（□ × 5 − 10）÷ 3 = 10 のとき、Step1 で逆算の1手目（右端から最初に戻す演算）を選び、Step2 で □ を求めよ。",
+        "question_image_url": null,
+        "answer": "8",
+        "answer_unit": null,
+        "hints": [
+          "÷ 3 を戻すため × 3 をする",
+          "− 10 を先に戻す",
+          "× 5 を先に戻す",
+          "8",
+          "30",
+          "6"
+        ],
+        "solution_steps": [
+          "Step1: 右端から戻すので、まず ÷ 3 を戻すため × 3 をする。10 × 3 = 30（中ボス）。",
+          "Step2: 30 + 10 = 40。40 ÷ 5 = 8（ラスボス）。"
+        ],
+        "common_mistakes": [
+          "「− 10 を先に戻す」を選ぶと、まだ ÷ 3 が残ったままで工程順序が崩れる。",
+          "「× 5 を先に戻す」は逆算の出発点を左端にしてしまったミス。戻すのは右端から。",
+          "30 は 10 × 3 で止まった数字。それは中ボス！ラスボスは 8。",
+          "6 は 30 ÷ 5 と、+ 10 を戻し忘れたミス。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "gyakuzan",
+        "figure_svg": "<svg viewBox=\"0 0 260 90\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"20\" y=\"18\" font-size=\"11\">（□ × 5 − 10）÷ 3 = 10</text><line x1=\"20\" y1=\"32\" x2=\"240\" y2=\"32\" stroke=\"#333\" stroke-width=\"1.2\"/><path d=\"M240,32 L232,28 L232,36 Z\" fill=\"#333\"/><text x=\"130\" y=\"28\" font-size=\"9\" text-anchor=\"middle\">左から右へ計算</text><line x1=\"240\" y1=\"55\" x2=\"20\" y2=\"55\" stroke=\"#c0392b\" stroke-width=\"1.2\" stroke-dasharray=\"4 2\"/><path d=\"M20,55 L28,51 L28,59 Z\" fill=\"#c0392b\"/><text x=\"130\" y=\"72\" font-size=\"9\" text-anchor=\"middle\" fill=\"#c0392b\">逆算は右から戻す（× 3 → + 10 → ÷ 5）</text></svg>",
+        "difficulty": "d4",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "two_tier",
+        "tier2_correct_index": 3,
+        "tier1_label": "逆算の1手目（最初に戻す演算）はどれ？",
+        "tier1_purpose": "strategy",
+        "tier2_label": "□ はいくつ？",
+        "tier2_purpose": "answer",
+        "slot_config": null
+      },
+      {
+        "id": "q-lesson-m-0701-09",
+        "lesson_id": "lesson-m-0701",
+        "position": 9,
+        "question_text": "花だんの広さの 25% にチューリップ、45% にパンジーを植えた。何も植えていない残りは 6m² である。Step1 で残りが全体の何%にあたるかを選び、Step2 で花だん全体の広さを求めよ。",
+        "question_image_url": null,
+        "answer": "20",
+        "answer_unit": "m²",
+        "hints": [
+          "残りは全体の 30% にあたる",
+          "残りは全体の 70% にあたる",
+          "残りは全体の 20% にあたる",
+          "20",
+          "8",
+          "12"
+        ],
+        "solution_steps": [
+          "Step1: 植えた割合は 25 + 45 = 70%。残りは 100 − 70 = 30%（中ボス）。",
+          "Step2: 6 ÷ 0.3 = 20（m²）（ラスボス）。"
+        ],
+        "common_mistakes": [
+          "「残りは全体の 70%」は、植えた割合の合計と残りを混同したミス。",
+          "「残りは全体の 20%」は 45 − 25 と、割合の差を出してしまったミス。",
+          "8 は 6 × 1.3 の勘違いから出やすい数字で、根拠のない式。",
+          "12 は 6 ÷ 0.5 と、残りを 50% と雑に見積もったミス。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "wariai",
+        "figure_svg": null,
+        "difficulty": "d4",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "two_tier",
+        "tier2_correct_index": 3,
+        "tier1_label": "残りは全体の何%？",
+        "tier1_purpose": "basis",
+        "tier2_label": "花だん全体の広さは？",
+        "tier2_purpose": "answer",
+        "slot_config": null
+      },
+      {
+        "id": "q-lesson-m-0701-10",
+        "lesson_id": "lesson-m-0701",
+        "position": 10,
+        "question_text": "40人 のクラスの 35% が眼鏡をかけている。眼鏡をかけているのは何人か。",
+        "question_image_url": null,
+        "answer": "14",
+        "answer_unit": "人",
+        "hints": [
+          "14",
+          "35",
+          "26"
+        ],
+        "solution_steps": [
+          "くらべる量 = もとにする量 × 割合。",
+          "40 × 0.35 = 14（人）。"
+        ],
+        "common_mistakes": [
+          "35 は % の数字をそのまま人数にしてしまったミス。",
+          "26 は 40 − 14 の眼鏡をかけていない人数。聞かれているのはかけている人数。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "wariai",
+        "figure_svg": null,
+        "difficulty": "d3",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "single_tier",
+        "tier2_correct_index": null,
+        "tier1_label": null,
+        "tier1_purpose": null,
+        "tier2_label": null,
+        "tier2_purpose": null,
+        "slot_config": null,
+        "step": 1,
+        "step_label": "single"
+      }
+    ],
+    "passages": [],
+    "reading_questions": [],
+    "blocks": [
+      {
+        "id": "warmup",
+        "title": "入口確認（逆算1演算・単位）",
+        "block_type": "warmup",
+        "question_ids": [
+          "q-lesson-m-0701-01",
+          "q-lesson-m-0701-02"
+        ]
+      },
+      {
+        "id": "core",
+        "title": "割合の基礎（テスト範囲）",
+        "block_type": "core",
+        "question_ids": [
+          "q-lesson-m-0701-03",
+          "q-lesson-m-0701-04",
+          "q-lesson-m-0701-05",
+          "q-lesson-m-0701-06",
+          "q-lesson-m-0701-07"
+        ]
+      },
+      {
+        "id": "weakness_spiral",
+        "title": "既習弱点（多段逆算）",
+        "block_type": "weakness_spiral",
+        "question_ids": [
+          "q-lesson-m-0701-08"
+        ]
+      },
+      {
+        "id": "exam_transfer",
+        "title": "過去問同型",
+        "block_type": "exam_transfer",
+        "question_ids": [
+          "q-lesson-m-0701-09"
+        ]
+      },
+      {
+        "id": "optional_extra",
+        "title": "追加チャレンジ（とばしてOK）",
+        "block_type": "optional_extra",
+        "question_ids": [
+          "q-lesson-m-0701-10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lesson-j-0702",
+    "unit_id": "japanese",
+    "subject": "japanese",
+    "title": "7/2 内容合致と心情の変化（サンプルレッスン）",
+    "concept_cards": [],
+    "tips": [],
+    "difficulty": 3,
+    "grade": 5,
+    "sort_order": 0,
+    "created_at": "2026-07-07T09:07:38.335383+09:00",
+    "lesson_type": "mixed",
+    "archived": false,
+    "questions": [
+      {
+        "id": "q-lesson-j-0702-01",
+        "lesson_id": "lesson-j-0702",
+        "position": 1,
+        "question_text": "「心配事が解決して、ほっと安心する」という意味の慣用句はどれか。",
+        "question_image_url": null,
+        "answer": "胸をなでおろす",
+        "answer_unit": null,
+        "hints": [
+          "胸をなでおろす",
+          "胸が高鳴る",
+          "肩を落とす"
+        ],
+        "solution_steps": [
+          "「ほっと安心する」がキーワード。",
+          "胸をなでおろす = 心配事が解決して安心する。"
+        ],
+        "common_mistakes": [
+          "胸が高鳴る は期待や喜びでどきどきすること。安心ではない。",
+          "肩を落とす はがっかりして元気をなくすこと。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "goi-kanyouku",
+        "figure_svg": null,
+        "difficulty": "d2",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "single_tier",
+        "tier2_correct_index": null,
+        "tier1_label": null,
+        "tier1_purpose": null,
+        "tier2_label": null,
+        "tier2_purpose": null,
+        "slot_config": null,
+        "step": 1,
+        "step_label": "single"
+      },
+      {
+        "id": "q-lesson-j-0702-02",
+        "lesson_id": "lesson-j-0702",
+        "position": 2,
+        "question_text": "「立派な行いに感心し、尊敬する気持ちになる」という意味の慣用句はどれか。",
+        "question_image_url": null,
+        "answer": "頭が下がる",
+        "answer_unit": null,
+        "hints": [
+          "頭が下がる",
+          "頭を抱える",
+          "頭が上がらない"
+        ],
+        "solution_steps": [
+          "「感心・尊敬」がキーワード。",
+          "頭が下がる = 立派な行いに感心して尊敬する。"
+        ],
+        "common_mistakes": [
+          "頭を抱える は困って悩むこと。",
+          "頭が上がらない は引け目があって対等にふるまえないこと。尊敬とは違う。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "goi-kanyouku",
+        "figure_svg": null,
+        "difficulty": "d2",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "single_tier",
+        "tier2_correct_index": null,
+        "tier1_label": null,
+        "tier1_purpose": null,
+        "tier2_label": null,
+        "tier2_purpose": null,
+        "slot_config": null,
+        "step": 1,
+        "step_label": "single"
+      },
+      {
+        "id": "q-lesson-j-0702-03",
+        "lesson_id": "lesson-j-0702",
+        "position": 3,
+        "question_text": "本文：「公園のすみに小さな花だんがある。それは、去年の春に近所の人たちが作ったものだ。」——「それ」が指すものはどれか。",
+        "question_image_url": null,
+        "answer": "小さな花だん",
+        "answer_unit": null,
+        "hints": [
+          "小さな花だん",
+          "公園のすみ",
+          "近所の人たち"
+        ],
+        "solution_steps": [
+          "指示語は直前を見る。「それ」の直前にあるのは「小さな花だん」。",
+          "「花だんは近所の人たちが作ったもの」と入れかえて意味が通ることを確認する。"
+        ],
+        "common_mistakes": [
+          "公園のすみ は場所。作られたものではないので入れかえると意味が通らない。",
+          "近所の人たち は作った人。指されているものではない。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "shijigo",
+        "figure_svg": null,
+        "difficulty": "d3",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "single_tier",
+        "tier2_correct_index": null,
+        "tier1_label": null,
+        "tier1_purpose": null,
+        "tier2_label": null,
+        "tier2_purpose": null,
+        "slot_config": null,
+        "step": 1,
+        "step_label": "single"
+      },
+      {
+        "id": "q-lesson-j-0702-04",
+        "lesson_id": "lesson-j-0702",
+        "position": 4,
+        "question_text": "本文：「ゆいは毎朝、学校のうさぎ小屋の掃除をしている。はじめは先生にたのまれてしぶしぶ始めたことだった。けれど今では、うさぎが駆け寄ってくる朝の時間が待ち遠しい。」Step1 で「今のゆいの気持ち」の根拠となる一文を選び、Step2 で本文の内容に合うものを選びましょう。",
+        "question_image_url": null,
+        "answer": "ゆいは今では掃除の時間を楽しみにしている",
+        "answer_unit": null,
+        "hints": [
+          "けれど今では、うさぎが駆け寄ってくる朝の時間が待ち遠しい。",
+          "はじめは先生にたのまれてしぶしぶ始めたことだった。",
+          "ゆいは毎朝、学校のうさぎ小屋の掃除をしている。",
+          "ゆいは今では掃除の時間を楽しみにしている",
+          "ゆいは先生にほめられて掃除を続けている",
+          "ゆいは今もしぶしぶ掃除を続けている"
+        ],
+        "solution_steps": [
+          "Step1: 「今の気持ち」の根拠は「けれど今では〜待ち遠しい」の一文。これが中ボス。",
+          "Step2: 「待ち遠しい」= 楽しみにしている。これがラスボス。"
+        ],
+        "common_mistakes": [
+          "「はじめは〜しぶしぶ始めた」は変化する前の気持ち。今の気持ちの根拠ではない。",
+          "「毎朝〜掃除をしている」は事実の説明で、気持ちを示す一文ではない。",
+          "「先生にほめられて」は本文のどこにも書かれていない内容。",
+          "「今もしぶしぶ」は変化前の気持ちのままで、本文の「けれど今では」と合わない。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "naiyou-gacchi",
+        "figure_svg": null,
+        "difficulty": "d4",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "evidence_first",
+        "tier2_correct_index": 3,
+        "tier1_label": "「今のゆいの気持ち」の根拠となる一文は？",
+        "tier1_purpose": "evidence",
+        "tier2_label": "本文の内容に合うものは？",
+        "tier2_purpose": "answer",
+        "slot_config": null
+      },
+      {
+        "id": "q-lesson-j-0702-05",
+        "lesson_id": "lesson-j-0702",
+        "position": 5,
+        "question_text": "本文：「この地方の祭りは、もともと秋の収穫を感謝する行事だった。時代とともに祭りの形は大きく変わった。それでも、収穫への感謝という中心は今も受けつがれている。」Step1 で「今も変わらないもの」の根拠となる一文を選び、Step2 で本文の内容に合うものを選びましょう。",
+        "question_image_url": null,
+        "answer": "祭りの形は変わったが中心は変わらない",
+        "answer_unit": null,
+        "hints": [
+          "それでも、収穫への感謝という中心は今も受けつがれている。",
+          "この地方の祭りは、もともと秋の収穫を感謝する行事だった。",
+          "時代とともに祭りの形は大きく変わった。",
+          "祭りの形は変わったが中心は変わらない",
+          "祭りは昔とまったく同じ形で続いている",
+          "祭りはすでに行われなくなった"
+        ],
+        "solution_steps": [
+          "Step1: 「今も」とあるのは「それでも、収穫への感謝という中心は今も受けつがれている。」の一文。これが中ボス。",
+          "Step2: 形は変化・中心は不変、の組み合わせが本文と合う。これがラスボス。"
+        ],
+        "common_mistakes": [
+          "「もともと〜行事だった」は昔の説明で、「今も変わらないもの」の根拠ではない。",
+          "「形は大きく変わった」は変わったものの説明。問われているのは変わらないもの。",
+          "「まったく同じ形で続いている」は「形は大きく変わった」と矛盾する言い過ぎ型。",
+          "「行われなくなった」は本文に書かれていない無記載型。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "naiyou-gacchi",
+        "figure_svg": null,
+        "difficulty": "d4",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "evidence_first",
+        "tier2_correct_index": 3,
+        "tier1_label": "「今も変わらないもの」の根拠となる一文は？",
+        "tier1_purpose": "evidence",
+        "tier2_label": "本文の内容に合うものは？",
+        "tier2_purpose": "answer",
+        "slot_config": null
+      },
+      {
+        "id": "q-lesson-j-0702-06",
+        "lesson_id": "lesson-j-0702",
+        "position": 6,
+        "question_text": "本文：「そらは発表会の朝、足がすくむほど緊張していた。しかし、客席で手をふる家族を見つけたとたん、体の力がすっとぬけて、歌うのが楽しみになった。」Step1 で気持ちが変わるきっかけの一文を選び、Step2 でそらの心情の変化として最も適切なものを選びましょう。",
+        "question_image_url": null,
+        "answer": "緊張から楽しみへ変化した",
+        "answer_unit": null,
+        "hints": [
+          "しかし、客席で手をふる家族を見つけたとたん、体の力がすっとぬけて、歌うのが楽しみになった。",
+          "そらは発表会の朝、足がすくむほど緊張していた。",
+          "そらは発表会で歌う予定だった。",
+          "緊張から楽しみへ変化した",
+          "楽しみから緊張へ変化した",
+          "緊張したままだった"
+        ],
+        "solution_steps": [
+          "Step1: きっかけは「しかし、客席で手をふる家族を見つけたとたん〜」の一文。これが中ボス。",
+          "Step2: 緊張 → 楽しみ の順で変化している。これがラスボス。"
+        ],
+        "common_mistakes": [
+          "「足がすくむほど緊張していた」は変化する前の心情で、きっかけの一文ではない。",
+          "「歌う予定だった」は本文に直接書かれていない事実の言いかえで、心情でもない。",
+          "「楽しみから緊張へ」は本文と逆の順序。変化は本文の順番どおりに追う。",
+          "「緊張したままだった」は後半の変化を無視したミス。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "shinjou-henka",
+        "figure_svg": null,
+        "difficulty": "d4",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "evidence_first",
+        "tier2_correct_index": 3,
+        "tier1_label": "気持ちが変わるきっかけの一文は？",
+        "tier1_purpose": "evidence",
+        "tier2_label": "そらの心情の変化として最も適切なのは？",
+        "tier2_purpose": "answer",
+        "slot_config": null
+      },
+      {
+        "id": "q-lesson-j-0702-07",
+        "lesson_id": "lesson-j-0702",
+        "position": 7,
+        "question_text": "本文：「図書室には新しい本のコーナーができた。そこには、司書の先生が選んだ本が並んでいる。」——「そこ」が指すものはどれか。",
+        "question_image_url": null,
+        "answer": "新しい本のコーナー",
+        "answer_unit": null,
+        "hints": [
+          "新しい本のコーナー",
+          "図書室",
+          "司書の先生"
+        ],
+        "solution_steps": [
+          "指示語は直前を見る。「そこ」の直前は「新しい本のコーナー」。",
+          "「新しい本のコーナーには〜本が並んでいる」と入れかえて意味が通る。"
+        ],
+        "common_mistakes": [
+          "図書室 も場所だが、直前の「コーナー」のほうが指す範囲として適切。入れかえ確認で選び分ける。",
+          "司書の先生 は人。場所を指す「そこ」には当てはまらない。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "shijigo",
+        "figure_svg": null,
+        "difficulty": "d3",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "single_tier",
+        "tier2_correct_index": null,
+        "tier1_label": null,
+        "tier1_purpose": null,
+        "tier2_label": null,
+        "tier2_purpose": null,
+        "slot_config": null,
+        "step": 1,
+        "step_label": "single"
+      },
+      {
+        "id": "q-lesson-j-0702-08",
+        "lesson_id": "lesson-j-0702",
+        "position": 8,
+        "question_text": "「朝から雨が降っていた。（　　）、遠足は予定どおり行われた。」——（　　）に入る接続語はどれか。",
+        "question_image_url": null,
+        "answer": "しかし",
+        "answer_unit": null,
+        "hints": [
+          "しかし",
+          "だから",
+          "つまり"
+        ],
+        "solution_steps": [
+          "前: 雨が降っていた（遠足が中止になりそうな内容）。後: 予定どおり行われた。",
+          "前後が逆の関係なので、逆接の「しかし」。"
+        ],
+        "common_mistakes": [
+          "だから は順接。雨なら中止になるはずなので、つながらない。",
+          "つまり は言いかえ。前後は言いかえの関係ではない。"
+        ],
+        "diag_step1": null,
+        "diag_step2": null,
+        "unit_id": "setsuzoku",
+        "figure_svg": null,
+        "difficulty": "d3",
+        "reference_problem_id": null,
+        "src_lesson_id": null,
+        "question_type": "single_tier",
+        "tier2_correct_index": null,
+        "tier1_label": null,
+        "tier1_purpose": null,
+        "tier2_label": null,
+        "tier2_purpose": null,
+        "slot_config": null,
+        "step": 1,
+        "step_label": "single"
+      }
+    ],
+    "passages": [],
+    "reading_questions": [],
+    "blocks": [
+      {
+        "id": "warmup",
+        "title": "語彙ウォームアップ（慣用句）",
+        "block_type": "warmup",
+        "question_ids": [
+          "q-lesson-j-0702-01",
+          "q-lesson-j-0702-02"
+        ]
+      },
+      {
+        "id": "core",
+        "title": "内容合致（テスト範囲）",
+        "block_type": "core",
+        "question_ids": [
+          "q-lesson-j-0702-03",
+          "q-lesson-j-0702-04",
+          "q-lesson-j-0702-05"
+        ]
+      },
+      {
+        "id": "weakness_spiral",
+        "title": "既習弱点（心情の変化・指示語）",
+        "block_type": "weakness_spiral",
+        "question_ids": [
+          "q-lesson-j-0702-06",
+          "q-lesson-j-0702-07"
+        ]
+      },
+      {
+        "id": "optional_extra",
+        "title": "追加チャレンジ（とばしてOK）",
+        "block_type": "optional_extra",
+        "question_ids": [
+          "q-lesson-j-0702-08"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+*.local
+data/logs/
+data/analysis/
+data/daily-report/
+data/lessons/
+data/external_cache/
+data/textbooks/
+!data/textbooks/
+data/textbooks/*
+!data/textbooks/curriculum/
+data/textbooks/curriculum/*
+!data/textbooks/curriculum/curriculum.json
+!data/textbooks/curriculum/grade5-analysis.md
+!data/textbooks/curriculum/grade5-training-plan.md
+data/target-school/kakomon-raw/
+data/practice_test/
+!data/practice_test/
+data/practice_test/**
+!data/practice_test/**/
+!data/practice_test/**/analysis.example.json
+data/practice_test/**/analysis.json
+data/schedule/
+*.bak
+*.bak.*
+data/play_log/*.tmp
+test-results/
+.env
+PRIVATE_CONTEXT.md
+scripts/out/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generation failure logs (transient)
+data/generation-failures/
+
+# Temporary
+tmp/
+.codex
+.playwright-mcp/
+.claude/worktrees/
+.hermes/
+
+# Auto-generated planning drafts are local session artifacts.
+docs/plans/*.md
+
+# ローカル memory ストア (legacy data/memories.jsonl から移行)
+.memory/
+tests/e2e/screenshots/
+frontend/.env.production

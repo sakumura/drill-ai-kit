@@ -1,0 +1,18 @@
+[
+  {
+    "id": "lesson-m-0701",
+    "date": "2026-07-01",
+    "lesson_id": "lesson-m-0701",
+    "status": "pending",
+    "meta_reviewed_at": "2026-06-30T21:00:00+09:00",
+    "parent_approved_at": "2026-06-30T21:00:00+09:00"
+  },
+  {
+    "id": "lesson-j-0702",
+    "date": "2026-07-02",
+    "lesson_id": "lesson-j-0702",
+    "status": "pending",
+    "meta_reviewed_at": null,
+    "parent_approved_at": null
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "last_updated": "2026-07-02T21:00:00+09:00",
+  "signal_profile_generated_at": "2026-07-07T09:02:24+09:00",
+  "weaknesses": [
+    {
+      "pattern_id": "gyakuzan",
+      "subject": "math",
+      "score": 120,
+      "severity": "high",
+      "name": "逆算の工程順序",
+      "last_test_result": "定例テスト第4回 大問1(3)",
+      "next_question_type": "維持確認",
+      "learning_signal": "concept_gap",
+      "signal_confidence": 0.2,
+      "recommended_intervention": "concept_contrast",
+      "recent_valid_accuracy": 75.0,
+      "recent_fast_wrong_rate": 0.0,
+      "recent_late_drop_rate": 50.0
+    },
+    {
+      "pattern_id": "shinjou-henka",
+      "subject": "japanese",
+      "score": 110,
+      "severity": "high",
+      "name": "心情の変化の切り分け",
+      "last_test_result": "定例テスト第4回 大問3(4)",
+      "next_question_type": "維持確認",
+      "learning_signal": "reading_load",
+      "signal_confidence": 0.2,
+      "recommended_intervention": "short_reading_evidence",
+      "recent_valid_accuracy": 50.0,
+      "recent_fast_wrong_rate": 0.0,
+      "recent_late_drop_rate": 50.0
+    },
+    {
+      "pattern_id": "wariai",
+      "subject": "math",
+      "score": 95,
+      "severity": "high",
+      "name": "割合の基準量特定",
+      "last_test_result": null,
+      "next_question_type": "維持確認",
+      "learning_signal": "concept_gap",
+      "signal_confidence": 0.2,
+      "recommended_intervention": "concept_contrast",
+      "recent_valid_accuracy": 87.5,
+      "recent_fast_wrong_rate": 0.0,
+      "recent_late_drop_rate": 0.0
+    },
+    {
+      "pattern_id": "naiyou-gacchi",
+      "subject": "japanese",
+      "score": 80,
+      "severity": "medium",
+      "name": "内容合致の無記載型",
+      "last_test_result": null,
+      "next_question_type": "維持確認",
+      "learning_signal": "reading_load",
+      "signal_confidence": 0.2,
+      "recommended_intervention": "short_reading_evidence",
+      "recent_valid_accuracy": 75.0,
+      "recent_fast_wrong_rate": 0.0,
+      "recent_late_drop_rate": null
+    }
+  ]
+}

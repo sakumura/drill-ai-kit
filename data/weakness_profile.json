@@ -1,0 +1,136 @@
+{
+  "version": 2,
+  "last_updated": "2026-07-02T21:00:00+09:00",
+  "approach": "technique_first",
+  "lesson_policy": "得意単元は問題数を少なく合格レベルに。弱点単元は量で反復（合成サンプル）",
+  "difficulty_policy": null,
+  "data_sources": [
+    "合成サンプル: data/play_log/2026-07-01.jsonl 〜 2026-07-02.jsonl",
+    "合成サンプル: 定例テスト第4回（2026-06-13）"
+  ],
+  "timeline": [
+    {"date": "2026-05-23", "test": "定例テスト第3回", "math": 62, "math_max": 100, "japanese": 70, "japanese_max": 100},
+    {"date": "2026-06-13", "test": "定例テスト第4回", "math": 68, "math_max": 100, "japanese": 72, "japanese_max": 100}
+  ],
+  "patterns": {
+    "math": [
+      {
+        "id": "gyakuzan",
+        "name": "逆算の工程順序",
+        "technique": "逆算は右端から、演算を1つずつ逆にして戻す（÷は×に、−は＋に）",
+        "description": "多段逆算で「どこから戻すか」の順序が崩れる。1演算の逆算は安定",
+        "severity": "high",
+        "first_detected": "2026-06-13",
+        "last_detected": "2026-07-02",
+        "detection_count": 4,
+        "sources": [
+          "test:regular-04[1](3) 2演算逆算で戻す向きを取り違え",
+          "app:lesson-m-0701 gyakuzan d4 0/1"
+        ],
+        "typical_errors": [
+          {
+            "input": "□ − 80 = 150",
+            "student": "70",
+            "correct": "230",
+            "note": "150 − 80 と、戻す向きを間違えて引いた"
+          }
+        ],
+        "status": "active",
+        "evidence_tier": {
+          "max_failed": 4,
+          "last_failed_test": "定例テスト第4回 大問1(3)",
+          "required_mastery_tier": 4
+        }
+      },
+      {
+        "id": "wariai",
+        "name": "割合の基準量特定",
+        "technique": "「〜の」の直後が「もとにする量」。くらべる量 = もとにする量 × 割合",
+        "description": "「AはBの何%か」で A と B のどちらが基準かを取り違える",
+        "severity": "high",
+        "first_detected": "2026-06-20",
+        "last_detected": "2026-07-01",
+        "detection_count": 3,
+        "sources": [
+          "app:lesson-m-0701 wariai d3 1/2"
+        ],
+        "typical_errors": [
+          {
+            "input": "20人は50人の何%か",
+            "student": "250%",
+            "correct": "40%",
+            "note": "50 ÷ 20 と基準を逆にして割った"
+          }
+        ],
+        "status": "active",
+        "evidence_tier": {
+          "max_failed": 3,
+          "last_failed_test": null,
+          "required_mastery_tier": 4
+        }
+      }
+    ],
+    "japanese": [
+      {
+        "id": "shinjou-henka",
+        "name": "心情の変化の切り分け",
+        "technique": "変化の前の心情・きっかけ・後の心情の3点を本文の順序で押さえる",
+        "description": "1場面に2つの心情があるとき、変化の前後を混同する",
+        "severity": "high",
+        "first_detected": "2026-06-13",
+        "last_detected": "2026-07-02",
+        "detection_count": 3,
+        "sources": [
+          "test:regular-04[3](4) 変化後の心情を変化前として選択",
+          "app:lesson-j-0702 shinjou-henka d4 0/1"
+        ],
+        "typical_errors": [
+          {
+            "input": "くやしさ→感謝 の変化",
+            "student": "感謝からくやしさへ変化した",
+            "correct": "くやしさから感謝へ変化した",
+            "note": "本文の順序と逆に読んだ"
+          }
+        ],
+        "status": "active",
+        "evidence_tier": {
+          "max_failed": 3,
+          "last_failed_test": "定例テスト第4回 大問3(4)",
+          "required_mastery_tier": 4
+        }
+      },
+      {
+        "id": "naiyou-gacchi",
+        "name": "内容合致の無記載型",
+        "technique": "選択肢→本文の順で照合。本文に無い内容は根拠を示せない",
+        "description": "本文の印象に合う「書かれていない内容」の選択肢を選んでしまう",
+        "severity": "medium",
+        "first_detected": "2026-06-20",
+        "last_detected": "2026-07-02",
+        "detection_count": 2,
+        "sources": [
+          "app:lesson-j-0702 naiyou-gacchi d4 1/2"
+        ],
+        "typical_errors": [],
+        "status": "active",
+        "evidence_tier": {
+          "max_failed": 2,
+          "last_failed_test": null,
+          "required_mastery_tier": 4
+        }
+      }
+    ]
+  },
+  "priority_queue": [
+    {"pattern_id": "gyakuzan", "subject": "math", "score": 120, "history": [{"date": "2026-07-02", "delta": 10, "old": 110, "new": 120, "reason": "7/1 d4 0/1: <60%適用"}]},
+    {"pattern_id": "shinjou-henka", "subject": "japanese", "score": 110, "history": []},
+    {"pattern_id": "wariai", "subject": "math", "score": 95, "history": []},
+    {"pattern_id": "naiyou-gacchi", "subject": "japanese", "score": 80, "history": []}
+  ],
+  "chronological_audit": [],
+  "invalidated_log_policy": "data/play_log/invalidations.json の rules に該当する answer は弱点分析の入力から除外する",
+  "update_history": [
+    {"date": "2026-07-02", "summary": "合成サンプル初期化"}
+  ],
+  "notes": "これは合成データ。実運用では briefing Phase 4a がこのファイルを更新する"
+}

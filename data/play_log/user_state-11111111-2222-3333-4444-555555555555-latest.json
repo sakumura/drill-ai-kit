@@ -1,0 +1,280 @@
+{
+  "session_id": "11111111-2222-3333-4444-555555555555",
+  "answer_history": [
+    {
+      "question_id": "q-lesson-m-0701-01",
+      "lesson_id": "lesson-m-0701",
+      "user_answer": "40",
+      "is_correct": true,
+      "time_spent_sec": 17,
+      "hints_used": 0,
+      "answered_at": "2026-07-01T08:00:21.000Z",
+      "step": 1,
+      "step_label": "single"
+    },
+    {
+      "question_id": "q-lesson-m-0701-02",
+      "lesson_id": "lesson-m-0701",
+      "user_answer": "2450",
+      "is_correct": true,
+      "time_spent_sec": 22,
+      "hints_used": 0,
+      "answered_at": "2026-07-01T08:00:45.000Z",
+      "step": 1,
+      "step_label": "single"
+    },
+    {
+      "question_id": "q-lesson-m-0701-03",
+      "lesson_id": "lesson-m-0701",
+      "user_answer": "250",
+      "is_correct": false,
+      "time_spent_sec": 27,
+      "hints_used": 0,
+      "answered_at": "2026-07-01T08:01:12.000Z",
+      "step": 1,
+      "step_label": "single"
+    },
+    {
+      "question_id": "q-lesson-m-0701-04",
+      "lesson_id": "lesson-m-0701",
+      "user_answer": "180",
+      "is_correct": true,
+      "time_spent_sec": 32,
+      "hints_used": 0,
+      "answered_at": "2026-07-01T08:01:42.000Z",
+      "step": 1,
+      "step_label": "single"
+    },
+    {
+      "question_id": "q-lesson-m-0701-05",
+      "lesson_id": "lesson-m-0701",
+      "user_answer": "0.25",
+      "is_correct": true,
+      "time_spent_sec": 37,
+      "hints_used": 0,
+      "answered_at": "2026-07-01T08:02:15.000Z",
+      "step": 1,
+      "step_label": "single"
+    },
+    {
+      "question_id": "q-lesson-m-0701-06",
+      "lesson_id": "lesson-m-0701",
+      "user_answer": "15",
+      "is_correct": true,
+      "time_spent_sec": 12,
+      "hints_used": 0,
+      "answered_at": "2026-07-01T08:02:51.000Z",
+      "step": 1,
+      "step_label": "single"
+    },
+    {
+      "question_id": "q-lesson-m-0701-07",
+      "lesson_id": "lesson-m-0701",
+      "user_answer": "残りは全体の 60% にあたる",
+      "is_correct": true,
+      "time_spent_sec": 17,
+      "hints_used": 0,
+      "answered_at": "2026-07-01T08:03:30.000Z",
+      "step": 1,
+      "step_label": "step1"
+    },
+    {
+      "question_id": "q-lesson-m-0701-07",
+      "lesson_id": "lesson-m-0701",
+      "user_answer": "1200",
+      "is_correct": true,
+      "time_spent_sec": 17,
+      "hints_used": 0,
+      "answered_at": "2026-07-01T08:04:09.000Z",
+      "step": 2,
+      "step_label": "step2"
+    },
+    {
+      "question_id": "q-lesson-m-0701-08",
+      "lesson_id": "lesson-m-0701",
+      "user_answer": "÷ 3 を戻すため × 3 をする",
+      "is_correct": true,
+      "time_spent_sec": 22,
+      "hints_used": 0,
+      "answered_at": "2026-07-01T08:04:51.000Z",
+      "step": 1,
+      "step_label": "step1"
+    },
+    {
+      "question_id": "q-lesson-m-0701-08",
+      "lesson_id": "lesson-m-0701",
+      "user_answer": "30",
+      "is_correct": false,
+      "time_spent_sec": 22,
+      "hints_used": 0,
+      "answered_at": "2026-07-01T08:05:33.000Z",
+      "step": 2,
+      "step_label": "step2"
+    },
+    {
+      "question_id": "q-lesson-m-0701-09",
+      "lesson_id": "lesson-m-0701",
+      "user_answer": "残りは全体の 30% にあたる",
+      "is_correct": true,
+      "time_spent_sec": 27,
+      "hints_used": 0,
+      "answered_at": "2026-07-01T08:05:53.000Z",
+      "step": 1,
+      "step_label": "step1"
+    },
+    {
+      "question_id": "q-lesson-m-0701-09",
+      "lesson_id": "lesson-m-0701",
+      "user_answer": "20",
+      "is_correct": true,
+      "time_spent_sec": 27,
+      "hints_used": 0,
+      "answered_at": "2026-07-01T08:06:13.000Z",
+      "step": 2,
+      "step_label": "step2"
+    },
+    {
+      "question_id": "q-lesson-m-0701-10",
+      "lesson_id": "lesson-m-0701",
+      "user_answer": "14",
+      "is_correct": true,
+      "time_spent_sec": 32,
+      "hints_used": 0,
+      "answered_at": "2026-07-01T08:06:36.000Z",
+      "step": 1,
+      "step_label": "single"
+    },
+    {
+      "question_id": "q-lesson-j-0702-01",
+      "lesson_id": "lesson-j-0702",
+      "user_answer": "胸をなでおろす",
+      "is_correct": true,
+      "time_spent_sec": 17,
+      "hints_used": 0,
+      "answered_at": "2026-07-02T08:00:21.000Z",
+      "step": 1,
+      "step_label": "single"
+    },
+    {
+      "question_id": "q-lesson-j-0702-02",
+      "lesson_id": "lesson-j-0702",
+      "user_answer": "頭が下がる",
+      "is_correct": true,
+      "time_spent_sec": 22,
+      "hints_used": 0,
+      "answered_at": "2026-07-02T08:00:45.000Z",
+      "step": 1,
+      "step_label": "single"
+    },
+    {
+      "question_id": "q-lesson-j-0702-03",
+      "lesson_id": "lesson-j-0702",
+      "user_answer": "小さな花だん",
+      "is_correct": true,
+      "time_spent_sec": 27,
+      "hints_used": 0,
+      "answered_at": "2026-07-02T08:01:12.000Z",
+      "step": 1,
+      "step_label": "single"
+    },
+    {
+      "question_id": "q-lesson-j-0702-04",
+      "lesson_id": "lesson-j-0702",
+      "user_answer": "けれど今では、うさぎが駆け寄ってくる朝の時間が待ち遠しい。",
+      "is_correct": true,
+      "time_spent_sec": 32,
+      "hints_used": 0,
+      "answered_at": "2026-07-02T08:01:42.000Z",
+      "step": 1,
+      "step_label": "step1"
+    },
+    {
+      "question_id": "q-lesson-j-0702-04",
+      "lesson_id": "lesson-j-0702",
+      "user_answer": "ゆいは今では掃除の時間を楽しみにしている",
+      "is_correct": true,
+      "time_spent_sec": 32,
+      "hints_used": 0,
+      "answered_at": "2026-07-02T08:02:12.000Z",
+      "step": 2,
+      "step_label": "step2"
+    },
+    {
+      "question_id": "q-lesson-j-0702-05",
+      "lesson_id": "lesson-j-0702",
+      "user_answer": "収穫への感謝という中心は今も受けつがれている。",
+      "is_correct": true,
+      "time_spent_sec": 37,
+      "hints_used": 0,
+      "answered_at": "2026-07-02T08:02:45.000Z",
+      "step": 1,
+      "step_label": "step1"
+    },
+    {
+      "question_id": "q-lesson-j-0702-05",
+      "lesson_id": "lesson-j-0702",
+      "user_answer": "祭りは昔とまったく同じ形で続いている",
+      "is_correct": false,
+      "time_spent_sec": 37,
+      "hints_used": 0,
+      "answered_at": "2026-07-02T08:03:18.000Z",
+      "step": 2,
+      "step_label": "step2"
+    },
+    {
+      "question_id": "q-lesson-j-0702-06",
+      "lesson_id": "lesson-j-0702",
+      "user_answer": "客席で手をふる家族を見つけたとたん、体の力がすっとぬけて、歌うのが楽しみになった。",
+      "is_correct": true,
+      "time_spent_sec": 12,
+      "hints_used": 0,
+      "answered_at": "2026-07-02T08:03:54.000Z",
+      "step": 1,
+      "step_label": "step1"
+    },
+    {
+      "question_id": "q-lesson-j-0702-06",
+      "lesson_id": "lesson-j-0702",
+      "user_answer": "楽しみから緊張へ変化した",
+      "is_correct": false,
+      "time_spent_sec": 12,
+      "hints_used": 0,
+      "answered_at": "2026-07-02T08:04:30.000Z",
+      "step": 2,
+      "step_label": "step2"
+    },
+    {
+      "question_id": "q-lesson-j-0702-07",
+      "lesson_id": "lesson-j-0702",
+      "user_answer": "新しい本のコーナー",
+      "is_correct": true,
+      "time_spent_sec": 17,
+      "hints_used": 0,
+      "answered_at": "2026-07-02T08:05:09.000Z",
+      "step": 1,
+      "step_label": "single"
+    },
+    {
+      "question_id": "q-lesson-j-0702-08",
+      "lesson_id": "lesson-j-0702",
+      "user_answer": "しかし",
+      "is_correct": true,
+      "time_spent_sec": 22,
+      "hints_used": 0,
+      "answered_at": "2026-07-02T08:05:51.000Z",
+      "step": 1,
+      "step_label": "single"
+    }
+  ],
+  "lesson_completions": [
+    {
+      "lesson_id": "lesson-m-0701",
+      "completed_at": "2026-07-01T08:07:06.000Z"
+    },
+    {
+      "lesson_id": "lesson-j-0702",
+      "completed_at": "2026-07-02T08:06:21.000Z"
+    }
+  ],
+  "updated_at": "2026-07-02T08:06:21.000Z"
+}

@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "generated_at": "2026-07-07T09:02:24+09:00",
+  "date_range": {
+    "start": "2026-06-22",
+    "end": "2026-07-06",
+    "timezone": "Asia/Tokyo"
+  },
+  "metric_notes": {
+    "recent_valid_accuracy": "final accuracy excluding fatigue_throwaway and question_quality_bug first-wrong groups",
+    "recent_fast_wrong_rate": "first-wrong attempts at <=3 seconds divided by recent attempts",
+    "recent_late_drop_rate": "late first-wrong groups divided by late groups"
+  },
+  "rows": [
+    {
+      "pattern_id": "goi-kanyouku",
+      "subject": "japanese",
+      "learning_signal": null,
+      "signal_confidence": 0.0,
+      "recommended_intervention": "maintain",
+      "recent_valid_accuracy": 100.0,
+      "recent_fast_wrong_rate": 0.0,
+      "recent_late_drop_rate": null,
+      "recent_attempts": 2,
+      "recent_valid_attempts": 2,
+      "recent_first_wrong_count": 0,
+      "signal_counts": {},
+      "lesson_ids": [
+        "lesson-j-0702"
+      ],
+      "latest_answered_at": "2026-07-02T08:00:45.000Z"
+    },
+    {
+      "pattern_id": "naiyou-gacchi",
+      "subject": "japanese",
+      "learning_signal": "reading_load",
+      "signal_confidence": 0.2,
+      "recommended_intervention": "short_reading_evidence",
+      "recent_valid_accuracy": 75.0,
+      "recent_fast_wrong_rate": 0.0,
+      "recent_late_drop_rate": null,
+      "recent_attempts": 4,
+      "recent_valid_attempts": 4,
+      "recent_first_wrong_count": 1,
+      "signal_counts": {
+        "reading_load": 1
+      },
+      "lesson_ids": [
+        "lesson-j-0702"
+      ],
+      "latest_answered_at": "2026-07-02T08:03:18.000Z"
+    },
+    {
+      "pattern_id": "setsuzoku",
+      "subject": "japanese",
+      "learning_signal": null,
+      "signal_confidence": 0.0,
+      "recommended_intervention": "maintain",
+      "recent_valid_accuracy": 100.0,
+      "recent_fast_wrong_rate": 0.0,
+      "recent_late_drop_rate": 0.0,
+      "recent_attempts": 1,
+      "recent_valid_attempts": 1,
+      "recent_first_wrong_count": 0,
+      "signal_counts": {},
+      "lesson_ids": [
+        "lesson-j-0702"
+      ],
+      "latest_answered_at": "2026-07-02T08:05:51.000Z"
+    },
+    {
+      "pattern_id": "shijigo",
+      "subject": "japanese",
+      "learning_signal": null,
+      "signal_confidence": 0.0,
+      "recommended_intervention": "maintain",
+      "recent_valid_accuracy": 100.0,
+      "recent_fast_wrong_rate": 0.0,
+      "recent_late_drop_rate": 0.0,
+      "recent_attempts": 2,
+      "recent_valid_attempts": 2,
+      "recent_first_wrong_count": 0,
+      "signal_counts": {},
+      "lesson_ids": [
+        "lesson-j-0702"
+      ],
+      "latest_answered_at": "2026-07-02T08:05:09.000Z"
+    },
+    {
+      "pattern_id": "shinjou-henka",
+      "subject": "japanese",
+      "learning_signal": "reading_load",
+      "signal_confidence": 0.2,
+      "recommended_intervention": "short_reading_evidence",
+      "recent_valid_accuracy": 50.0,
+      "recent_fast_wrong_rate": 0.0,
+      "recent_late_drop_rate": 50.0,
+      "recent_attempts": 2,
+      "recent_valid_attempts": 2,
+      "recent_first_wrong_count": 1,
+      "signal_counts": {
+        "reading_load": 1
+      },
+      "lesson_ids": [
+        "lesson-j-0702"
+      ],
+      "latest_answered_at": "2026-07-02T08:04:30.000Z"
+    },
+    {
+      "pattern_id": "gyakuzan",
+      "subject": "math",
+      "learning_signal": "concept_gap",
+      "signal_confidence": 0.2,
+      "recommended_intervention": "concept_contrast",
+      "recent_valid_accuracy": 75.0,
+      "recent_fast_wrong_rate": 0.0,
+      "recent_late_drop_rate": 50.0,
+      "recent_attempts": 4,
+      "recent_valid_attempts": 4,
+      "recent_first_wrong_count": 1,
+      "signal_counts": {
+        "concept_gap": 1
+      },
+      "lesson_ids": [
+        "lesson-m-0701"
+      ],
+      "latest_answered_at": "2026-07-01T08:05:33.000Z"
+    },
+    {
+      "pattern_id": "tani",
+      "subject": "math",
+      "learning_signal": null,
+      "signal_confidence": 0.0,
+      "recommended_intervention": "maintain",
+      "recent_valid_accuracy": 100.0,
+      "recent_fast_wrong_rate": 0.0,
+      "recent_late_drop_rate": null,
+      "recent_attempts": 1,
+      "recent_valid_attempts": 1,
+      "recent_first_wrong_count": 0,
+      "signal_counts": {},
+      "lesson_ids": [
+        "lesson-m-0701"
+      ],
+      "latest_answered_at": "2026-07-01T08:00:45.000Z"
+    },
+    {
+      "pattern_id": "wariai",
+      "subject": "math",
+      "learning_signal": "concept_gap",
+      "signal_confidence": 0.2,
+      "recommended_intervention": "concept_contrast",
+      "recent_valid_accuracy": 87.5,
+      "recent_fast_wrong_rate": 0.0,
+      "recent_late_drop_rate": 0.0,
+      "recent_attempts": 8,
+      "recent_valid_attempts": 8,
+      "recent_first_wrong_count": 1,
+      "signal_counts": {
+        "concept_gap": 1
+      },
+      "lesson_ids": [
+        "lesson-m-0701"
+      ],
+      "latest_answered_at": "2026-07-01T08:06:36.000Z"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "yakusu-baisu",
+    "name": "約数・倍数",
+    "description": "約数と倍数の概念、公約数と公倍数",
+    "grade": 5,
+    "sort_order": 1,
+    "subject": "math"
+  },
+  {
+    "id": "shousu-kakezan-warizan",
+    "name": "小数のかけ算・わり算",
+    "description": "小数どうしのかけ算とわり算の筆算",
+    "grade": 5,
+    "sort_order": 2,
+    "subject": "math"
+  },
+  {
+    "id": "shousu-to-bunsu",
+    "name": "小数と分数",
+    "description": "小数と分数の相互変換",
+    "grade": 5,
+    "sort_order": 3,
+    "subject": "math"
+  },
+  {
+    "id": "bunsu-to-bunsu",
+    "name": "分数と分数",
+    "description": "通分と約分",
+    "grade": 5,
+    "sort_order": 4,
+    "subject": "math"
+  },
+  {
+    "id": "bunsu-tashizan-hikizan",
+    "name": "分数のたし算・ひき算",
+    "description": "異分母分数の加減",
+    "grade": 5,
+    "sort_order": 5,
+    "subject": "math"
+  },
+  {
+    "id": "goku-chishiki",
+    "name": "語句・知識",
+    "description": "語句の意味・慣用句・接続語・指示語・心情",
+    "grade": 5,
+    "sort_order": 10,
+    "subject": "japanese"
+  },
+  {
+    "id": "kanji-yomikaki",
+    "name": "漢字の読み書き",
+    "description": "漢字の読み・書き・同音異義語・熟語の構成",
+    "grade": 5,
+    "sort_order": 11,
+    "subject": "japanese"
+  },
+  {
+    "id": "dokkai-setsumeibun",
+    "name": "説明文の読解",
+    "description": "説明文の段落構成・要旨把握・因果関係の読み取り",
+    "grade": 5,
+    "sort_order": 20,
+    "subject": "japanese"
+  },
+  {
+    "id": "yakubun-checker",
+    "name": "約分チェッカー",
+    "description": "約分が必要かどうかを自分で判断する練習",
+    "grade": 5,
+    "sort_order": 60,
+    "subject": "math"
+  },
+  {
+    "id": "sk-keisan-junjo",
+    "name": "計算順序ルール",
+    "description": null,
+    "grade": 5,
+    "sort_order": 301,
+    "subject": "math"
+  },
+  {
+    "id": "sk-yakubun",
+    "name": "約分チェック",
+    "description": null,
+    "grade": 5,
+    "sort_order": 302,
+    "subject": "math"
+  },
+  {
+    "id": "sk-syousuu-warisan",
+    "name": "小数のわり算",
+    "description": null,
+    "grade": 5,
+    "sort_order": 303,
+    "subject": "math"
+  },
+  {
+    "id": "sk-gyakuzan",
+    "name": "逆算",
+    "description": null,
+    "grade": 5,
+    "sort_order": 304,
+    "subject": "math"
+  },
+  {
+    "id": "sk-bunsuu-syousuu",
+    "name": "分数⇔小数変換",
+    "description": null,
+    "grade": 5,
+    "sort_order": 305,
+    "subject": "math"
+  },
+  {
+    "id": "sk-tsubun",
+    "name": "通分（分数の加減）",
+    "description": null,
+    "grade": 5,
+    "sort_order": 306,
+    "subject": "math"
+  },
+  {
+    "id": "sk-gcd-lcm",
+    "name": "最大公約数・最小公倍数",
+    "description": null,
+    "grade": 5,
+    "sort_order": 307,
+    "subject": "math"
+  },
+  {
+    "id": "sk-wariai",
+    "name": "割合（百分率）",
+    "description": null,
+    "grade": 5,
+    "sort_order": 308,
+    "subject": "math"
+  },
+  {
+    "id": "sk-zukei",
+    "name": "図形（面積・体積）",
+    "description": null,
+    "grade": 5,
+    "sort_order": 309,
+    "subject": "math"
+  },
+  {
+    "id": "sk-tani",
+    "name": "単位変換",
+    "description": null,
+    "grade": 5,
+    "sort_order": 310,
+    "subject": "math"
+  },
+  {
+    "id": "sk-uekizan",
+    "name": "植木算",
+    "description": null,
+    "grade": 5,
+    "sort_order": 311,
+    "subject": "math"
+  },
+  {
+    "id": "sk-kisokusei",
+    "name": "規則性",
+    "description": null,
+    "grade": 5,
+    "sort_order": 312,
+    "subject": "math"
+  },
+  {
+    "id": "sk-hitei",
+    "name": "否定形選択の解法",
+    "description": null,
+    "grade": 5,
+    "sort_order": 301,
+    "subject": "japanese"
+  },
+  {
+    "id": "sk-gacchi",
+    "name": "内容合致の解法",
+    "description": null,
+    "grade": 5,
+    "sort_order": 302,
+    "subject": "japanese"
+  },
+  {
+    "id": "sk-inga",
+    "name": "因果関係の読み取り",
+    "description": null,
+    "grade": 5,
+    "sort_order": 303,
+    "subject": "japanese"
+  },
+  {
+    "id": "sk-setsuzoku",
+    "name": "接続語マスター",
+    "description": null,
+    "grade": 5,
+    "sort_order": 304,
+    "subject": "japanese"
+  },
+  {
+    "id": "sk-kuulan",
+    "name": "空欄補充テクニック",
+    "description": null,
+    "grade": 5,
+    "sort_order": 305,
+    "subject": "japanese"
+  },
+  {
+    "id": "sk-youshi",
+    "name": "要旨の見つけ方",
+    "description": null,
+    "grade": 5,
+    "sort_order": 306,
+    "subject": "japanese"
+  },
+  {
+    "id": "sk-shijigo",
+    "name": "指示語の解法",
+    "description": null,
+    "grade": 5,
+    "sort_order": 307,
+    "subject": "japanese"
+  },
+  {
+    "id": "sk-kanyouku",
+    "name": "慣用句・語句",
+    "description": null,
+    "grade": 5,
+    "sort_order": 308,
+    "subject": "japanese"
+  },
+  {
+    "id": "sk-kanji",
+    "name": "漢字の読み書き",
+    "description": null,
+    "grade": 5,
+    "sort_order": 309,
+    "subject": "japanese"
+  }
+]

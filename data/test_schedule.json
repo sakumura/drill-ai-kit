@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "last_updated": "2026-07-01T09:00:00+09:00",
+  "note": "テスト日程 ↔ 主教材X回 ↔ training-plan.md/analysis.md パスの単一ハブ（合成サンプル）。新しいテスト日程が決まったら必ずここを更新する。briefing Phase 1e がここを読んで artifacts パスを解決する。type は regular（定例テスト）/ mock（公開模試）。",
+  "source": "合成サンプル。自分の塾の年間予定表から書き直すこと",
+  "tests": [
+    {
+      "id": "regular-04",
+      "type": "regular",
+      "name": "定例テスト第4回",
+      "date": "2026-06-13",
+      "curriculum_range": "21回・22回",
+      "status": "completed",
+      "result": {
+        "math": {"score": 68, "max": 100},
+        "japanese": {"score": 72, "max": 100}
+      },
+      "artifacts": null,
+      "note": "合成サンプルの過去テスト。result は架空の値"
+    },
+    {
+      "id": "regular-05",
+      "type": "regular",
+      "name": "定例テスト第5回",
+      "date": "2026-07-12",
+      "curriculum_range": "23回・24回",
+      "status": "upcoming",
+      "artifacts": {
+        "math": {
+          "analysis": "data/plan/regular-05/math/analysis.md",
+          "training_plan": "data/plan/regular-05/math/training-plan.md"
+        },
+        "japanese": {
+          "analysis": "data/plan/regular-05/japanese/analysis.md",
+          "training_plan": "data/plan/regular-05/japanese/training-plan.md"
+        }
+      },
+      "note": "算数: 第23回 割合の基礎 / 第24回 割合と線分図。国語: 第23回 内容合致 / 第24回 慣用句と語彙"
+    },
+    {
+      "id": "mock-03",
+      "type": "mock",
+      "name": "公開模試第3回",
+      "date": "2026-08-02",
+      "curriculum_range": "全既習範囲",
+      "status": "upcoming",
+      "artifacts": null,
+      "note": "試験日まで15日以上先の間は training_plan 未作成でも warning のみ（briefing 信頼性ゲート8）"
+    }
+  ]
+}

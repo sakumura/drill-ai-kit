@@ -1,0 +1,359 @@
+{
+  "lesson_id": "lesson-j-0702",
+  "subject": "japanese",
+  "date": "2026-07-02",
+  "title": "7/2 内容合致と心情の変化（サンプルレッスン）",
+  "difficulty": 3,
+  "motivator_message": "きのうの逆算、最後まで戻れたのがすごい。今日は物語の気持ちの変化を追いかけてみよう 💪",
+  "blocks": [
+    {
+      "id": "warmup",
+      "title": "語彙ウォームアップ（慣用句）",
+      "block_type": "warmup",
+      "question_ids": [
+        "q-lesson-j-0702-01",
+        "q-lesson-j-0702-02"
+      ]
+    },
+    {
+      "id": "core",
+      "title": "内容合致（テスト範囲）",
+      "block_type": "core",
+      "question_ids": [
+        "q-lesson-j-0702-03",
+        "q-lesson-j-0702-04",
+        "q-lesson-j-0702-05"
+      ]
+    },
+    {
+      "id": "weakness_spiral",
+      "title": "既習弱点（心情の変化・指示語）",
+      "block_type": "weakness_spiral",
+      "question_ids": [
+        "q-lesson-j-0702-06",
+        "q-lesson-j-0702-07"
+      ]
+    },
+    {
+      "id": "optional_extra",
+      "title": "追加チャレンジ（とばしてOK）",
+      "block_type": "optional_extra",
+      "question_ids": [
+        "q-lesson-j-0702-08"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "position": 1,
+      "unit_id": "goi-kanyouku",
+      "difficulty": "d2",
+      "question_text": "「心配事が解決して、ほっと安心する」という意味の慣用句はどれか。",
+      "answer": "胸をなでおろす",
+      "answer_unit": null,
+      "hints": [
+        "胸をなでおろす",
+        "胸が高鳴る",
+        "肩を落とす"
+      ],
+      "solution_steps": [
+        "「ほっと安心する」がキーワード。",
+        "胸をなでおろす = 心配事が解決して安心する。"
+      ],
+      "common_mistakes": [
+        "胸が高鳴る は期待や喜びでどきどきすること。安心ではない。",
+        "肩を落とす はがっかりして元気をなくすこと。"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "single_tier",
+      "tier1_label": null,
+      "tier1_purpose": null,
+      "tier2_correct_index": null,
+      "tier2_label": null,
+      "tier2_purpose": null,
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d2",
+        "weakness_target": "goi-kanyouku（vocabulary/kanyouku.md KY3 本採用。意味→語の順方向）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 2,
+      "unit_id": "goi-kanyouku",
+      "difficulty": "d2",
+      "question_text": "「立派な行いに感心し、尊敬する気持ちになる」という意味の慣用句はどれか。",
+      "answer": "頭が下がる",
+      "answer_unit": null,
+      "hints": [
+        "頭が下がる",
+        "頭を抱える",
+        "頭が上がらない"
+      ],
+      "solution_steps": [
+        "「感心・尊敬」がキーワード。",
+        "頭が下がる = 立派な行いに感心して尊敬する。"
+      ],
+      "common_mistakes": [
+        "頭を抱える は困って悩むこと。",
+        "頭が上がらない は引け目があって対等にふるまえないこと。尊敬とは違う。"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "single_tier",
+      "tier1_label": null,
+      "tier1_purpose": null,
+      "tier2_correct_index": null,
+      "tier2_label": null,
+      "tier2_purpose": null,
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d2",
+        "weakness_target": "goi-kanyouku（vocabulary/kanyouku.md KY1 本採用）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 3,
+      "unit_id": "shijigo",
+      "difficulty": "d3",
+      "question_text": "本文：「公園のすみに小さな花だんがある。それは、去年の春に近所の人たちが作ったものだ。」——「それ」が指すものはどれか。",
+      "answer": "小さな花だん",
+      "answer_unit": null,
+      "hints": [
+        "小さな花だん",
+        "公園のすみ",
+        "近所の人たち"
+      ],
+      "solution_steps": [
+        "指示語は直前を見る。「それ」の直前にあるのは「小さな花だん」。",
+        "「花だんは近所の人たちが作ったもの」と入れかえて意味が通ることを確認する。"
+      ],
+      "common_mistakes": [
+        "公園のすみ は場所。作られたものではないので入れかえると意味が通らない。",
+        "近所の人たち は作った人。指されているものではない。"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "single_tier",
+      "tier1_label": null,
+      "tier1_purpose": null,
+      "tier2_correct_index": null,
+      "tier2_label": null,
+      "tier2_purpose": null,
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d3",
+        "weakness_target": "shijigo（指示語の直前照合。入れかえ確認の型）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 4,
+      "unit_id": "naiyou-gacchi",
+      "difficulty": "d4",
+      "question_text": "本文：「ゆいは毎朝、学校のうさぎ小屋の掃除をしている。はじめは先生にたのまれてしぶしぶ始めたことだった。けれど今では、うさぎが駆け寄ってくる朝の時間が待ち遠しい。」Step1 で「今のゆいの気持ち」の根拠となる一文を選び、Step2 で本文の内容に合うものを選びましょう。",
+      "answer": "ゆいは今では掃除の時間を楽しみにしている",
+      "answer_unit": null,
+      "hints": [
+        "けれど今では、うさぎが駆け寄ってくる朝の時間が待ち遠しい。",
+        "はじめは先生にたのまれてしぶしぶ始めたことだった。",
+        "ゆいは毎朝、学校のうさぎ小屋の掃除をしている。",
+        "ゆいは今では掃除の時間を楽しみにしている",
+        "ゆいは先生にほめられて掃除を続けている",
+        "ゆいは今もしぶしぶ掃除を続けている"
+      ],
+      "solution_steps": [
+        "Step1: 「今の気持ち」の根拠は「けれど今では〜待ち遠しい」の一文。これが中ボス。",
+        "Step2: 「待ち遠しい」= 楽しみにしている。これがラスボス。"
+      ],
+      "common_mistakes": [
+        "「はじめは〜しぶしぶ始めた」は変化する前の気持ち。今の気持ちの根拠ではない。",
+        "「毎朝〜掃除をしている」は事実の説明で、気持ちを示す一文ではない。",
+        "「先生にほめられて」は本文のどこにも書かれていない内容。",
+        "「今もしぶしぶ」は変化前の気持ちのままで、本文の「けれど今では」と合わない。"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "evidence_first",
+      "tier1_label": "「今のゆいの気持ち」の根拠となる一文は？",
+      "tier1_purpose": "evidence",
+      "tier2_correct_index": 3,
+      "tier2_label": "本文の内容に合うものは？",
+      "tier2_purpose": "answer",
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d4",
+        "weakness_target": "naiyou-gacchi medium 80（無記載型 distractor の排除。7/12テスト範囲）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 5,
+      "unit_id": "naiyou-gacchi",
+      "difficulty": "d4",
+      "question_text": "本文：「この地方の祭りは、もともと秋の収穫を感謝する行事だった。時代とともに祭りの形は大きく変わった。それでも、収穫への感謝という中心は今も受けつがれている。」Step1 で「今も変わらないもの」の根拠となる一文を選び、Step2 で本文の内容に合うものを選びましょう。",
+      "answer": "祭りの形は変わったが中心は変わらない",
+      "answer_unit": null,
+      "hints": [
+        "それでも、収穫への感謝という中心は今も受けつがれている。",
+        "この地方の祭りは、もともと秋の収穫を感謝する行事だった。",
+        "時代とともに祭りの形は大きく変わった。",
+        "祭りの形は変わったが中心は変わらない",
+        "祭りは昔とまったく同じ形で続いている",
+        "祭りはすでに行われなくなった"
+      ],
+      "solution_steps": [
+        "Step1: 「今も」とあるのは「それでも、収穫への感謝という中心は今も受けつがれている。」の一文。これが中ボス。",
+        "Step2: 形は変化・中心は不変、の組み合わせが本文と合う。これがラスボス。"
+      ],
+      "common_mistakes": [
+        "「もともと〜行事だった」は昔の説明で、「今も変わらないもの」の根拠ではない。",
+        "「形は大きく変わった」は変わったものの説明。問われているのは変わらないもの。",
+        "「まったく同じ形で続いている」は「形は大きく変わった」と矛盾する言い過ぎ型。",
+        "「行われなくなった」は本文に書かれていない無記載型。"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "evidence_first",
+      "tier1_label": "「今も変わらないもの」の根拠となる一文は？",
+      "tier1_purpose": "evidence",
+      "tier2_correct_index": 3,
+      "tier2_label": "本文の内容に合うものは？",
+      "tier2_purpose": "answer",
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d4",
+        "weakness_target": "naiyou-gacchi medium 80（逆転型・言い過ぎ型 distractor の見分け）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 6,
+      "unit_id": "shinjou-henka",
+      "difficulty": "d4",
+      "question_text": "本文：「そらは発表会の朝、足がすくむほど緊張していた。しかし、客席で手をふる家族を見つけたとたん、体の力がすっとぬけて、歌うのが楽しみになった。」Step1 で気持ちが変わるきっかけの一文を選び、Step2 でそらの心情の変化として最も適切なものを選びましょう。",
+      "answer": "緊張から楽しみへ変化した",
+      "answer_unit": null,
+      "hints": [
+        "しかし、客席で手をふる家族を見つけたとたん、体の力がすっとぬけて、歌うのが楽しみになった。",
+        "そらは発表会の朝、足がすくむほど緊張していた。",
+        "そらは発表会で歌う予定だった。",
+        "緊張から楽しみへ変化した",
+        "楽しみから緊張へ変化した",
+        "緊張したままだった"
+      ],
+      "solution_steps": [
+        "Step1: きっかけは「しかし、客席で手をふる家族を見つけたとたん〜」の一文。これが中ボス。",
+        "Step2: 緊張 → 楽しみ の順で変化している。これがラスボス。"
+      ],
+      "common_mistakes": [
+        "「足がすくむほど緊張していた」は変化する前の心情で、きっかけの一文ではない。",
+        "「歌う予定だった」は本文に直接書かれていない事実の言いかえで、心情でもない。",
+        "「楽しみから緊張へ」は本文と逆の順序。変化は本文の順番どおりに追う。",
+        "「緊張したままだった」は後半の変化を無視したミス。"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "evidence_first",
+      "tier1_label": "気持ちが変わるきっかけの一文は？",
+      "tier1_purpose": "evidence",
+      "tier2_correct_index": 3,
+      "tier2_label": "そらの心情の変化として最も適切なのは？",
+      "tier2_purpose": "answer",
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d4",
+        "weakness_target": "shinjou-henka high 110（2心情の切り分け。最重点弱点）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 7,
+      "unit_id": "shijigo",
+      "difficulty": "d3",
+      "question_text": "本文：「図書室には新しい本のコーナーができた。そこには、司書の先生が選んだ本が並んでいる。」——「そこ」が指すものはどれか。",
+      "answer": "新しい本のコーナー",
+      "answer_unit": null,
+      "hints": [
+        "新しい本のコーナー",
+        "図書室",
+        "司書の先生"
+      ],
+      "solution_steps": [
+        "指示語は直前を見る。「そこ」の直前は「新しい本のコーナー」。",
+        "「新しい本のコーナーには〜本が並んでいる」と入れかえて意味が通る。"
+      ],
+      "common_mistakes": [
+        "図書室 も場所だが、直前の「コーナー」のほうが指す範囲として適切。入れかえ確認で選び分ける。",
+        "司書の先生 は人。場所を指す「そこ」には当てはまらない。"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "single_tier",
+      "tier1_label": null,
+      "tier1_purpose": null,
+      "tier2_correct_index": null,
+      "tier2_label": null,
+      "tier2_purpose": null,
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d3",
+        "weakness_target": "shijigo（直前照合 + 入れかえ確認の反復）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    },
+    {
+      "position": 8,
+      "unit_id": "setsuzoku",
+      "difficulty": "d3",
+      "question_text": "「朝から雨が降っていた。（　　）、遠足は予定どおり行われた。」——（　　）に入る接続語はどれか。",
+      "answer": "しかし",
+      "answer_unit": null,
+      "hints": [
+        "しかし",
+        "だから",
+        "つまり"
+      ],
+      "solution_steps": [
+        "前: 雨が降っていた（遠足が中止になりそうな内容）。後: 予定どおり行われた。",
+        "前後が逆の関係なので、逆接の「しかし」。"
+      ],
+      "common_mistakes": [
+        "だから は順接。雨なら中止になるはずなので、つながらない。",
+        "つまり は言いかえ。前後は言いかえの関係ではない。"
+      ],
+      "is_figure": false,
+      "figure_svg": null,
+      "question_type": "single_tier",
+      "tier1_label": null,
+      "tier1_purpose": null,
+      "tier2_correct_index": null,
+      "tier2_label": null,
+      "tier2_purpose": null,
+      "slot_config": null,
+      "meta": {
+        "source": "new",
+        "difficulty_from_anchor": "d3",
+        "weakness_target": "setsuzoku（逆接の基本形。optional）",
+        "target_anchor": "none",
+        "match_type": "none"
+      }
+    }
+  ]
+}

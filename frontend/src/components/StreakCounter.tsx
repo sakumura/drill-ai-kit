@@ -1,0 +1,4 @@
+// StreakCounter は廃止しました（全問正解クリア方式に移行）
+export function StreakCounter() {
+  return null
+}

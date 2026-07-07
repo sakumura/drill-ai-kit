@@ -1,0 +1,30 @@
+{
+  "source": "合成サンプル（自分の塾教材のカリキュラム表から作り直すこと）",
+  "extracted_from": ["SETUP.md の教材ガイド参照"],
+  "extracted_at": "2026-07-01",
+  "academic_year": 2026,
+  "grade": 5,
+  "stage": "後期",
+  "test_type": "定例テスト",
+  "excludes": ["公開模試", "外部模試"],
+  "scope_note": "test_date フィールドは定例テスト（隔週土曜想定）のみ。公開模試は data/test_schedule.json で別エントリとして管理する。",
+  "note": "これは架空のカリキュラム。単元名・日付とも見本。",
+  "subjects": {
+    "算数": [
+      {"unit": 19, "title": "約数と公約数", "page": 6, "lecture_period": {"start": "2026-05-08"}, "test_date": "2026-05-23"},
+      {"unit": 20, "title": "倍数と公倍数", "page": 18, "lecture_period": {"start": "2026-05-15"}, "test_date": "2026-05-23"},
+      {"unit": 21, "title": "分数の計算", "page": 30, "lecture_period": {"start": "2026-05-29"}, "test_date": "2026-06-13"},
+      {"unit": 22, "title": "逆算と計算のくふう", "page": 42, "lecture_period": {"start": "2026-06-05"}, "test_date": "2026-06-13"},
+      {"unit": 23, "title": "割合の基礎", "page": 54, "lecture_period": {"start": "2026-06-19"}, "test_date": "2026-07-12"},
+      {"unit": 24, "title": "割合と線分図", "page": 66, "lecture_period": {"start": "2026-06-26"}, "test_date": "2026-07-12"}
+    ],
+    "国語": [
+      {"unit": 19, "title": "物語文の心情", "page": 8, "lecture_period": {"start": "2026-05-08"}, "test_date": "2026-05-23"},
+      {"unit": 20, "title": "説明文の要点", "page": 22, "lecture_period": {"start": "2026-05-15"}, "test_date": "2026-05-23"},
+      {"unit": 21, "title": "指示語と接続語", "page": 36, "lecture_period": {"start": "2026-05-29"}, "test_date": "2026-06-13"},
+      {"unit": 22, "title": "心情の変化", "page": 50, "lecture_period": {"start": "2026-06-05"}, "test_date": "2026-06-13"},
+      {"unit": 23, "title": "内容合致", "page": 64, "lecture_period": {"start": "2026-06-19"}, "test_date": "2026-07-12"},
+      {"unit": 24, "title": "慣用句と語彙", "page": 78, "lecture_period": {"start": "2026-06-26"}, "test_date": "2026-07-12"}
+    ]
+  }
+}
