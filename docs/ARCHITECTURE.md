@@ -6,7 +6,7 @@
 
 ## 教育設計コンセプト
 
-このアプリ（表示名・キャラクター名は自由に変更してよい。既定は「AI家庭教師」）は、志望校の国算2科合格を最上位目標にした **「暗記特化ドリル × プロセスStep1」** の学習アプリとして運用する。長期計画の正本は `data/textbooks/curriculum/grade5-training-plan.md`、構造分析は `data/textbooks/curriculum/grade5-analysis.md`、志望校ターゲット校方針は `data/target-school/long-term-plan.md`。レッスン生成入口は `.claude/skills/generate-drill-lesson/SKILL.md` に一本化する。
+このアプリ（表示名・キャラクター名は自由に変更してよい。既定は「AI家庭教師」）は、受験・資格試験などで頻出する知識、典型判断、分類ラベル、解法パターンを定着させる **「暗記特化ドリル × プロセスStep1」** の学習アプリとして運用する。現行の同梱サンプルは、志望校の国算2科合格を最上位目標にした中学受験向け構成である。長期計画の正本は `data/textbooks/curriculum/grade5-training-plan.md`、構造分析は `data/textbooks/curriculum/grade5-analysis.md`、志望校ターゲット校方針は `data/target-school/long-term-plan.md`。レッスン生成入口は `.claude/skills/generate-drill-lesson/SKILL.md` に一本化する。
 
 | 領域 | 担当 |
 |---|---|
