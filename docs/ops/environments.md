@@ -125,7 +125,7 @@ python3 scripts/rebuild_user_state_from_events.py --session-id <session-id>
 
 - **`npm run deploy` だけ叩く → 即 `exit 1`**。`deploy:production` を明示。
 - **`validate_lesson_format.py` に `--json` を渡し忘れる → argparse エラー**。検証対象の手書き JSON を明示する。
-- **Pages project 名と公開 URL を混同する** → project 名（例 `juken-ai-kit`）と公開 URL（`*.pages.dev` サブドメイン）は別物。
+- **Pages project 名と公開 URL を混同する** → project 名（例 `drill-ai-kit`）と公開 URL（`*.pages.dev` サブドメイン）は別物。
 - **`frontend/public/data/*.json` を直接編集後に build/deploy を忘れる** → 本番に反映されない。
 - **`data/weakness_profile.json` 更新後に `scripts/build_learning_profile.py` 実行を忘れる** → `/skill` `/history` ダッシュボードに古い weakness が表示。Pages deploy 前に必ず実行（ARCHITECTURE.md 参照）。
 - **`wrangler pages deploy` で稀に `Invalid commit message, it must be a valid UTF-8 string`** → `--commit-message "..."` を明示して回避。git 最新コミットメッセージから自動抽出する仕様が原因。

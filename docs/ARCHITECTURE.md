@@ -1,4 +1,4 @@
-# juken-ai-kit アーキテクチャ
+# drill-ai-kit アーキテクチャ
 
 ## 正本
 
@@ -47,7 +47,7 @@
 
 ## 現在のアーキテクチャ
 
-juken-ai-kit は React SPA + Cloudflare Workers の薄い API で構成する。読み取りデータは Cloudflare Pages が配信する静的 JSON、動的データはブラウザ localStorage を即時 source とし、R2 に非同期同期する。
+drill-ai-kit は React SPA + Cloudflare Workers の薄い API で構成する。読み取りデータは Cloudflare Pages が配信する静的 JSON、動的データはブラウザ localStorage を即時 source とし、R2 に非同期同期する。
 
 ```
 Frontend (Cloudflare Pages)

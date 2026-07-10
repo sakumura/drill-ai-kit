@@ -1,4 +1,4 @@
-# SETUP — juken-ai-kit セットアップガイド
+# SETUP — drill-ai-kit セットアップガイド
 
 このファイルは**二重構造**です。
 
@@ -91,15 +91,15 @@ claude-in-chrome は便利だが、Cloudflareダッシュボードの自動操�
 
 ### Step 0. リポジトリの複製と clone（初回のみ）
 
-まだローカルに clone していない場合、`juken-ai-kit` のURLだけを渡されて起動したときはここから開始する。
+まだローカルに clone していない場合、`drill-ai-kit` のURLだけを渡されて起動したときはここから開始する。
 
 ```bash
 gh auth status || gh auth login   # 未認証ならブラウザ承認を人間に依頼する
-gh repo create <新しいリポジトリ名> --template sakumura/juken-ai-kit --private --clone
+gh repo create <新しいリポジトリ名> --template sakumura/drill-ai-kit --private --clone
 cd <新しいリポジトリ名>
 ```
 
-- リポジトリ名は人間に確認する（既定は `juken-ai-kit` のままでよい）
+- リポジトリ名は人間に確認する（既定は `drill-ai-kit` のままでよい）
 - 実運用（学習者のデータを入れる）前提なら `--private` を必ず付ける。試しに合成データだけ触る場合に限り `--public` でも可
 - 既にローカルに clone 済みでこのディレクトリで作業している場合はこの Step を丸ごとスキップする
 

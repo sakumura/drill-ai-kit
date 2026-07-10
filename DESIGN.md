@@ -1,4 +1,4 @@
-# DESIGN.md — juken-ai-kit (Warm Studio)
+# DESIGN.md — drill-ai-kit (Warm Studio)
 
 > 自動生成: 2026-04-23 (ui-coder, 既存コード走査結果から抽出)
 

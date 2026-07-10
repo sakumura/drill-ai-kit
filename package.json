@@ -1,5 +1,5 @@
 {
-  "name": "juken-ai-kit",
+  "name": "drill-ai-kit",
   "private": true,
   "workspaces": [
     "frontend",

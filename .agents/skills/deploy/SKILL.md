@@ -59,7 +59,7 @@ npx wrangler pages deploy frontend/dist --project-name juken-ai-kit --commit-dir
 
 **判定**: Deployment complete! または Pages URL が表示されれば次へ。
 
-**重要**: project-name は `juken-ai-kit`（`*.pages.dev` のサブドメインとは別物）。`YOUR-PROJECT.pages.dev` は Pages が発行するドメイン名で、project-name とは別。`npx wrangler pages project list` で確認可。`--commit-dirty=true` は git 未コミット時の警告を抑制する。
+**重要**: project-name は `drill-ai-kit`（`*.pages.dev` のサブドメインとは別物）。`YOUR-PROJECT.pages.dev` は Pages が発行するドメイン名で、project-name とは別。`npx wrangler pages project list` で確認可。`--commit-dirty=true` は git 未コミット時の警告を抑制する。
 
 Pages のブランチプレビューは自動生成される。feature ブランチ push 時は CF が自動で preview URL を発行するため、手動デプロイ不要の場合もある。
 

@@ -1,6 +1,6 @@
 ---
 name: setup
-description: juken-ai-kit の初期セットアップ。Cloudflare 認証 → R2 作成 → Worker/Pages デプロイ → スモークテスト → デモパイプライン確認までを、人間の判断ポイントを挟みながら実行する。
+description: drill-ai-kit の初期セットアップ。Cloudflare 認証 → R2 作成 → Worker/Pages デプロイ → スモークテスト → デモパイプライン確認までを、人間の判断ポイントを挟みながら実行する。
 allowed-tools: Bash, Read, Write, Edit, Grep, Glob, WebFetch
 ---
 
@@ -22,15 +22,15 @@ allowed-tools: Bash, Read, Write, Edit, Grep, Glob, WebFetch
 
 ## 事前準備: リポジトリの複製と clone（初回のみ）
 
-まだローカルに clone していない場合、`juken-ai-kit` の URL だけを渡されて起動したときはここから開始する。
+まだローカルに clone していない場合、`drill-ai-kit` の URL だけを渡されて起動したときはここから開始する。
 
 ```bash
 gh auth status || gh auth login   # 未認証ならブラウザ承認を人間に依頼する
-gh repo create <新しいリポジトリ名> --template sakumura/juken-ai-kit --private --clone
+gh repo create <新しいリポジトリ名> --template sakumura/drill-ai-kit --private --clone
 cd <新しいリポジトリ名>
 ```
 
-- リポジトリ名は人間に確認する（既定は `juken-ai-kit` のままでよい）
+- リポジトリ名は人間に確認する（既定は `drill-ai-kit` のままでよい）
 - 実運用（子どものデータを入れる）前提なら `--private` を必ず付ける。合成データだけ試す場合に限り `--public` でも可
 - 既にローカルに clone 済みでこのディレクトリで作業している場合はこの準備をスキップし、そのまま Step 0 から始める
 
@@ -89,7 +89,7 @@ cd workers && npm run deploy:production
 
 1. `frontend/.env.production` の `VITE_API_BASE` を Step 3 の URL + `/api` に書き換える
 2. `API_WRITE_TOKEN` / `API_READ_TOKEN` を設定した場合は、`frontend/.env.production` の `VITE_API_WRITE_TOKEN` / `VITE_API_READ_TOKEN` も同じ値にする
-3. Pages プロジェクト名を人間に確認（既定 `juken-ai-kit`）。変える場合は `workers/wrangler.jsonc` の `vars.PAGES_PROJECT` も変えて Worker を再デプロイ（CORS 許可オリジンの判定に使うため）
+3. Pages プロジェクト名を人間に確認（既定 `drill-ai-kit`）。変える場合は `workers/wrangler.jsonc` の `vars.PAGES_PROJECT` も変えて Worker を再デプロイ（CORS 許可オリジンの判定に使うため）
 
 ```bash
 cd frontend && npm run build
